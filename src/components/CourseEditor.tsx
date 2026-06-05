@@ -76,9 +76,17 @@ export default function CourseEditor({ course }: { course: any }) {
 
   return (
     <div className="max-w-4xl">
-      <Link href="/super-admin/courses" className="text-sm text-gray-500 hover:text-bluee-navy">
-        ← Back to Course Library
-      </Link>
+      <div className="flex items-center justify-between">
+        <Link href="/super-admin/courses" className="text-sm text-gray-500 hover:text-bluee-navy">
+          ← Back to Course Library
+        </Link>
+        <Link
+          href={`/super-admin/courses/${data.id}/preview`}
+          className="text-sm bg-bluee-steel text-white rounded-lg px-4 py-2 font-medium hover:opacity-90"
+        >
+          ▶ Preview as learner
+        </Link>
+      </div>
 
       {/* Course header — editable */}
       <div className="bg-white rounded-xl p-6 shadow-sm mt-4">
