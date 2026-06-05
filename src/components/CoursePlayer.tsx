@@ -67,7 +67,7 @@ export default function CoursePlayer({
       </div>
 
       <div className="bg-white rounded-xl p-6 shadow-sm">
-        <LessonBlocks blocks={lesson.blocks || []} />
+        <LessonBlocks blocks={lesson.blocks || []} category={course.category} />
       </div>
 
       <div className="flex items-center justify-between mt-6">

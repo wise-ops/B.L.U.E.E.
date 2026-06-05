@@ -45,6 +45,28 @@ export default function CourseEditor({ course }: { course: any }) {
     });
   }
 
+  function addBlock(lessonId: string, type: string) {
+    const templates: Record<string, any> = {
+      text: { type: "text", content: "New text…" },
+      callout: { type: "callout", variant: "tip", content: "New callout…" },
+      flashcard: { type: "flashcard", front: "Question?", back: "Answer." },
+      quiz: { type: "quiz", question: "New question?", options: [{ text: "Option 1", isCorrect: true, feedback: "" }, { text: "Option 2", isCorrect: false, feedback: "" }] },
+      scenario: { type: "scenario", prompt: "New scenario?", options: [{ text: "Option 1", isCorrect: true, feedback: "" }, { text: "Option 2", isCorrect: false, feedback: "" }] },
+      image: { type: "image", url: "", alt: "", credit: "" },
+      video: { type: "video", url: "" },
+    };
+    const newBlock = templates[type] || templates.text;
+    setData({
+      ...data,
+      modules: data.modules.map((m: any) => ({
+        ...m,
+        lessons: m.lessons.map((l: any) =>
+          l.id === lessonId ? { ...l, blocks: [...l.blocks, newBlock] } : l
+        ),
+      })),
+    });
+  }
+
   async function save() {
     setSaving(true);
     setSavedMsg("");
@@ -141,6 +163,18 @@ export default function CourseEditor({ course }: { course: any }) {
                       {l.blocks.length === 0 && (
                         <p className="text-sm text-gray-400 py-2">No content blocks in this lesson.</p>
                       )}
+                      <div className="flex flex-wrap gap-2 pt-2 border-t border-gray-200">
+                        <span className="text-xs text-gray-400 self-center mr-1">Add block:</span>
+                        {["text", "callout", "flashcard", "quiz", "scenario", "image", "video"].map((t) => (
+                          <button
+                            key={t}
+                            onClick={() => addBlock(l.id, t)}
+                            className="text-xs px-2.5 py-1 rounded-md bg-bluee-steel/10 text-bluee-steel hover:bg-bluee-steel/20 capitalize"
+                          >
+                            + {t}
+                          </button>
+                        ))}
+                      </div>
                     </div>
                   )}
                 </div>
@@ -302,10 +336,101 @@ function BlockEditor({ block, onChange, onDelete }: any) {
   }
 
   // Unknown / image / video — show read-only note
+  if (type === "image") {
+    return <ImageBlockEditor block={block} onChange={onChange} onDelete={onDelete} Label={Label} />;
+  }
+
+  if (type === "video") {
+    return (
+      <div className="bg-white rounded-lg p-3 border border-gray-200">
+        <Label>Video</Label>
+        <input
+          value={block.url || ""}
+          onChange={(e) => onChange({ ...block, url: e.target.value })}
+          placeholder="Paste a YouTube link or video URL"
+          className="w-full text-sm border border-gray-200 rounded px-2 py-1"
+        />
+        <p className="text-xs text-gray-400 mt-1">Paste a YouTube link (youtube.com/watch?v=...) or a direct video file URL.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="bg-white rounded-lg p-3 border border-gray-200">
       <Label>{type}</Label>
       <p className="text-xs text-gray-500">This block type ({type}) is shown in the learner view.</p>
+    </div>
+  );
+}
+
+// Image block editor with Unsplash search + manual URL.
+function ImageBlockEditor({ block, onChange, onDelete, Label }: any) {
+  const [q, setQ] = useState("");
+  const [results, setResults] = useState<any[]>([]);
+  const [searching, setSearching] = useState(false);
+  const [err, setErr] = useState("");
+
+  async function search() {
+    if (!q) return;
+    setSearching(true);
+    setErr("");
+    try {
+      const res = await fetch(`/api/images/search?q=${encodeURIComponent(q)}`);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Search failed");
+      setResults(data.results || []);
+    } catch (e: any) {
+      setErr(e.message);
+    } finally {
+      setSearching(false);
+    }
+  }
+
+  return (
+    <div className="bg-white rounded-lg p-3 border border-gray-200">
+      <Label>Image</Label>
+      {block.url && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={block.url} alt={block.alt || ""} className="w-full rounded mb-2" />
+      )}
+      <div className="flex gap-2 mb-2">
+        <input
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && search()}
+          placeholder="Search photos (e.g. veterinary technician)"
+          className="flex-1 text-sm border border-gray-200 rounded px-2 py-1"
+        />
+        <button
+          onClick={search}
+          disabled={searching}
+          className="text-xs px-3 py-1 rounded bg-bluee-steel text-white hover:opacity-90 disabled:opacity-50"
+        >
+          {searching ? "…" : "Search"}
+        </button>
+      </div>
+      {err && <p className="text-xs text-red-500 mb-2">{err}</p>}
+      {results.length > 0 && (
+        <div className="grid grid-cols-3 gap-2 mb-2">
+          {results.map((r, i) => (
+            <button
+              key={i}
+              onClick={() => { onChange({ ...block, url: r.full, alt: r.alt, credit: r.credit }); setResults([]); }}
+              className="block rounded overflow-hidden border border-gray-200 hover:border-bluee-steel"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={r.thumb} alt={r.alt} className="w-full h-16 object-cover" />
+            </button>
+          ))}
+        </div>
+      )}
+      <input
+        value={block.url || ""}
+        onChange={(e) => onChange({ ...block, url: e.target.value })}
+        placeholder="…or paste an image URL"
+        className="w-full text-xs border border-gray-200 rounded px-2 py-1"
+      />
+      {block.credit && <p className="text-xs text-gray-400 mt-1">{block.credit}</p>}
     </div>
   );
 }
