@@ -1,0 +1,192 @@
+// BLUEE database schema
+// This file defines every table in your database and how they relate.
+// After changing this file, the database is updated by running: npm run db:push
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────────────────────
+// ROLES — three tiers of access across the whole platform
+// ─────────────────────────────────────────────────────────────
+enum Role {
+  SUPER_ADMIN // You / BLUEE HQ — sees and controls everything
+  ORG_ADMIN   // Clinic owner/manager — controls their clinic only
+  EMPLOYEE    // Clinic staff — sees only their own assigned training
+}
+
+enum AssignmentStatus {
+  ASSIGNED
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum CourseStatus {
+  DRAFT     // Being built / under review, not visible to learners
+  PUBLISHED // Live and assignable
+}
+
+// ─────────────────────────────────────────────────────────────
+// ORGANIZATION — one veterinary clinic (a "tenant")
+// Every piece of data below ties back to an organization so that
+// no clinic can ever see another clinic's data.
+// ─────────────────────────────────────────────────────────────
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  // Clinic branding — what their employees see
+  primaryColor   String  @default("#4682b4")
+  secondaryColor String  @default("#556b2f")
+  logoUrl        String?
+  // Billing readiness (not wired to Stripe yet, just structure)
+  plan      String   @default("basic") // basic | pro | enterprise
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  users       User[]
+  jobRoles    JobRole[]
+  assignments CourseAssignment[]
+
+  @@index([slug])
+}
+
+// ─────────────────────────────────────────────────────────────
+// USER — a person who logs in (super admin, clinic admin, or staff)
+// ─────────────────────────────────────────────────────────────
+model User {
+  id             String   @id @default(cuid())
+  email          String   @unique
+  name           String
+  passwordHash   String
+  role           Role     @default(EMPLOYEE)
+  // A super admin has no organization (they are platform-level).
+  organizationId String?
+  organization   Organization? @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  // Which clinic job this employee holds (drives auto-assignment)
+  jobRoleId      String?
+  jobRole        JobRole? @relation(fields: [jobRoleId], references: [id], onDelete: SetNull)
+  isActive       Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  assignments     CourseAssignment[] @relation("LearnerAssignments")
+  assignmentsMade CourseAssignment[] @relation("AssignerAssignments")
+  lessonProgress  LessonProgress[]
+
+  @@index([organizationId])
+  @@index([email])
+}
+
+// ─────────────────────────────────────────────────────────────
+// JOB ROLE — e.g. "CSR", "Technician", "DVM" within a clinic
+// Used to auto-assign role-based learning tracks.
+// ─────────────────────────────────────────────────────────────
+model JobRole {
+  id             String @id @default(cuid())
+  name           String
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  users          User[]
+  createdAt      DateTime @default(now())
+
+  @@unique([organizationId, name])
+  @@index([organizationId])
+}
+
+// ─────────────────────────────────────────────────────────────
+// COURSE → MODULE → LESSON → CONTENT BLOCKS
+// Courses are global (created by BLUEE HQ) and assignable to any clinic.
+// ─────────────────────────────────────────────────────────────
+model Course {
+  id          String       @id @default(cuid())
+  title       String
+  description String       @default("")
+  coverImage  String?
+  category    String       @default("General") // e.g. "CSR", "Technician"
+  status      CourseStatus @default(DRAFT)
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  modules     Module[]
+  assignments CourseAssignment[]
+
+  @@index([status])
+  @@index([category])
+}
+
+model Module {
+  id        String   @id @default(cuid())
+  title     String
+  order     Int      @default(0)
+  courseId  String
+  course    Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  lessons   Lesson[]
+  createdAt DateTime @default(now())
+
+  @@index([courseId])
+}
+
+model Lesson {
+  id        String   @id @default(cuid())
+  title     String
+  order     Int      @default(0)
+  moduleId  String
+  module    Module   @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  // The lesson's content is a list of blocks stored as JSON.
+  // Each block looks like: { type: "text" | "image" | "quiz" | ..., ...data }
+  blocks    Json     @default("[]")
+  createdAt DateTime @default(now())
+
+  progress  LessonProgress[]
+
+  @@index([moduleId])
+}
+
+// ─────────────────────────────────────────────────────────────
+// ASSIGNMENT — a course given to a learner
+// ─────────────────────────────────────────────────────────────
+model CourseAssignment {
+  id             String   @id @default(cuid())
+  courseId       String
+  course         Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  userId         String
+  user           User     @relation("LearnerAssignments", fields: [userId], references: [id], onDelete: Cascade)
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  assignedById   String?
+  assignedBy     User?    @relation("AssignerAssignments", fields: [assignedById], references: [id], onDelete: SetNull)
+  status         AssignmentStatus @default(ASSIGNED)
+  dueDate        DateTime?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@unique([userId, courseId])
+  @@index([organizationId])
+  @@index([userId])
+}
+
+// ─────────────────────────────────────────────────────────────
+// LESSON PROGRESS — tracks which lessons a learner has finished
+// ─────────────────────────────────────────────────────────────
+model LessonProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId    String
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  completed   Boolean  @default(false)
+  quizScore   Int?     // percent, if the lesson had a quiz
+  completedAt DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, lessonId])
+  @@index([userId])
+}

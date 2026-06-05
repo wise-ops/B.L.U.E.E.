@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bluee-steel: #4682b4;
+  --bluee-orange: #e86100;
+  --bluee-olive: #556b2f;
+  --bluee-navy: #1a1f2e;
+}
+
+body {
+  background: #f4f6f9;
+  color: #1a1f2e;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
