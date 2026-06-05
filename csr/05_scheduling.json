@@ -1,0 +1,142 @@
+{
+  "title": "CSR: Smart Scheduling & Appointment Triage",
+  "description": "Build a schedule that keeps the clinic running smoothly: matching appointment types to time slots, recognizing what needs to be seen today, managing the flow, and handling no-shows and double-bookings.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 Appointment Types & Time",
+      "lessons": [
+        {
+          "title": "Matching the Visit to the Slot",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Not all appointments need the same amount of time, and scheduling them well keeps the whole day from falling apart.\n\nTypical categories (your clinic will have its own):\n\u2022 Quick visits: nail trims, recheck, vaccine-only \u2014 short slots.\n\u2022 Standard exams: wellness checks, minor issues \u2014 standard slots.\n\u2022 Long visits: new puppy/kitten with full workup, sick patient with multiple issues, senior exams \u2014 longer slots.\n\u2022 Drop-offs and surgeries: handled differently, often morning.\n\nWhen booking, ask enough to gauge the visit: 'What's the main reason for the visit?' A 'he's been limping for a week and also has a lump and needs his shots' is not a quick slot. Mismatched scheduling is the #1 cause of a clinic running behind."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Always ask the reason for the visit before choosing a slot. 'Just a quick check' often turns into three problems once they're in the room."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why ask the reason for a visit before booking the slot?",
+              "back": "To match the appointment length to the actual need \u2014 mismatched scheduling is a top cause of the clinic running behind."
+            },
+            {
+              "type": "quiz",
+              "question": "A client wants 'a quick appointment' but mentions the dog is limping, has a new lump, AND is due for vaccines. How should you book it?",
+              "options": [
+                {
+                  "text": "A short nail-trim-length slot",
+                  "isCorrect": false,
+                  "feedback": "Three issues need real exam time; a short slot guarantees the day runs behind."
+                },
+                {
+                  "text": "A longer slot appropriate for multiple concerns",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 multiple issues need adequate time; book accordingly."
+                },
+                {
+                  "text": "Tell them to only bring up one problem",
+                  "isCorrect": false,
+                  "feedback": "Never limit care; schedule enough time for what the pet needs."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 What Needs to Be Seen Today",
+      "lessons": [
+        {
+          "title": "Scheduling Urgency Without Diagnosing",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Some things can wait two weeks; some need to be seen today; some are emergencies (covered in your Triage course). As a CSR you make scheduling-urgency judgments without diagnosing.\n\nGenerally same-day or urgent (route per protocol): not eating for more than a day, repeated vomiting/diarrhea, limping that's worsening, eye problems, possible pain, a cat not urinating (emergency).\n\nGenerally routine: annual wellness, vaccine boosters not overdue, nail trims, a lump that's been stable for months.\n\nWhen unsure, err toward caution and check with the medical team about timing. 'Let me check with our team on how soon we should see her' is always a safe move."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Eye issues and 'not eating' get underestimated. Eyes can deteriorate fast, and a cat that hasn't eaten for a day-plus can develop serious liver problems. When in doubt, ask the medical team about timing."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A client says their indoor cat hasn't eaten anything in two days but is 'acting mostly normal.' How urgently do you schedule?",
+              "options": [
+                {
+                  "text": "Routine \u2014 book in two weeks",
+                  "isCorrect": false,
+                  "feedback": "A cat not eating for two days can develop serious complications; this isn't routine."
+                },
+                {
+                  "text": "Treat as needing prompt attention and check with the medical team on timing",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 anorexia in cats is time-sensitive; escalate the scheduling question rather than guessing."
+                },
+                {
+                  "text": "Tell them to try different food and call back in a week",
+                  "isCorrect": false,
+                  "feedback": "That's medical advice and delays needed care."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "A cat that hasn't eaten for 2+ days \u2014 routine or prompt?",
+              "back": "Prompt \u2014 feline anorexia can cause serious liver problems quickly. Check with the medical team on timing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 \u2014 Managing Flow, No-Shows & Conflicts",
+      "lessons": [
+        {
+          "title": "Keeping the Day on Track",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "A schedule is a living thing. Managing it well means:\n\n\u2022 Spacing appointments realistically and protecting buffer/catch-up time.\n\u2022 Confirming appointments (reminders cut no-shows dramatically).\n\u2022 Having a plan for no-shows and late arrivals per clinic policy.\n\u2022 Handling the inevitable double-booking or walk-in gracefully \u2014 apologize, communicate wait times honestly, and keep the medical team informed.\n\u2022 Communicating delays to waiting clients before they have to ask.\n\nHonesty about wait times builds trust. 'The doctor is running about 20 minutes behind, I'm so sorry \u2014 can I get you anything?' is far better than letting someone stew."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Proactively telling a waiting client about a delay \u2014 before they come ask \u2014 turns frustration into appreciation. People forgive waits; they don't forgive being ignored."
+            },
+            {
+              "type": "flashcard",
+              "front": "What's the best way to handle a clinic running behind schedule?",
+              "back": "Proactively and honestly communicate the delay to waiting clients before they have to ask."
+            },
+            {
+              "type": "quiz",
+              "question": "You realize two appointments were accidentally double-booked. What's the professional response?",
+              "options": [
+                {
+                  "text": "Hope one doesn't show up",
+                  "isCorrect": false,
+                  "feedback": "Leaving it to chance risks two upset clients and a scheduling mess."
+                },
+                {
+                  "text": "Acknowledge it, communicate honestly with both clients about timing, and coordinate with the medical team",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 own it, communicate, and problem-solve with the team."
+                },
+                {
+                  "text": "Cancel one without telling them",
+                  "isCorrect": false,
+                  "feedback": "Cancelling silently destroys trust."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

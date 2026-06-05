@@ -1,0 +1,166 @@
+{
+  "title": "CSR: De-escalation & Difficult Clients",
+  "description": "Stay calm and effective when clients are angry, scared, or grieving. Learn de-escalation techniques, what to say (and never say), when to set boundaries, and when to bring in a manager.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 Why Clients Get Upset",
+      "lessons": [
+        {
+          "title": "The Emotion Behind the Anger",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Almost every angry client at a veterinary front desk is really feeling something underneath the anger: fear for their pet, guilt that they didn't come sooner, helplessness, or sticker shock from an unexpected bill. Pets are family, and fear for family comes out sideways \u2014 often as anger aimed at whoever is in front of them. That's you.\n\nUnderstanding this changes everything. The client yelling about a wait time may be terrified their dog is seriously ill. When you respond to the fear instead of the volume, you de-escalate."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Anger is usually fear wearing a costume. Ask yourself 'what are they actually scared of?' and respond to that."
+            },
+            {
+              "type": "flashcard",
+              "front": "What is usually underneath a client's anger?",
+              "back": "Fear, guilt, helplessness, or financial stress \u2014 pets are family, and fear comes out as anger."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A client snaps, 'I've been waiting twenty minutes, this is ridiculous!' What's the most de-escalating response?",
+              "options": [
+                {
+                  "text": "'Everyone has to wait, you're not special.'",
+                  "isCorrect": false,
+                  "feedback": "Dismissive and combative \u2014 this escalates."
+                },
+                {
+                  "text": "'I'm so sorry for the wait \u2014 I can see you're worried about Bella. Let me find out exactly where we are for you.'",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 acknowledge the feeling, name the underlying worry, and take action."
+                },
+                {
+                  "text": "'It's not my fault the doctor is behind.'",
+                  "isCorrect": false,
+                  "feedback": "Defensive and deflecting; doesn't help the client."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 De-escalation Techniques",
+      "lessons": [
+        {
+          "title": "The Tools That Calm a Situation",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "De-escalation is a set of learnable skills:\n\nLISTEN fully \u2014 let them vent without interrupting. Often being heard is 80% of what they need.\n\nACKNOWLEDGE \u2014 'I hear you,' 'I understand why that's frustrating.' You can validate a feeling without agreeing you did anything wrong.\n\nLOWER your voice and slow down \u2014 people unconsciously mirror you. Calm is contagious.\n\nUSE their name \u2014 it personalizes and humanizes the exchange.\n\nFOCUS on what you CAN do \u2014 'Here's what I can do right now...' beats listing what you can't.\n\nDON'T take the bait \u2014 if they get personal, stay professional. Their anger isn't really about you."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Never match their energy by raising your own voice. Two people shouting solves nothing. Your calm is the brake on the whole interaction."
+            },
+            {
+              "type": "flashcard",
+              "front": "Name three core de-escalation techniques.",
+              "back": "Any of: listen fully, acknowledge the feeling, lower your voice/slow down, use their name, focus on what you CAN do."
+            },
+            {
+              "type": "quiz",
+              "question": "A client is escalating. Which response uses de-escalation correctly?",
+              "options": [
+                {
+                  "text": "Raising your voice to be heard over them",
+                  "isCorrect": false,
+                  "feedback": "Matching their volume escalates the conflict."
+                },
+                {
+                  "text": "Lowering your voice, using their name, and saying 'Here's what I can do for you right now'",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 calm tone, personalization, and a focus on solutions de-escalate."
+                },
+                {
+                  "text": "Telling them they're being unreasonable",
+                  "isCorrect": false,
+                  "feedback": "Labeling their behavior inflames the situation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 \u2014 Boundaries & When to Escalate",
+      "lessons": [
+        {
+          "title": "Protecting Yourself and Knowing Your Limits",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "De-escalation has limits. You deserve to be treated with respect, and some situations need a manager or a firm boundary.\n\nIt's time to set a boundary or escalate when:\n\u2022 The client becomes abusive, threatening, or uses slurs.\n\u2022 They're demanding something you're not authorized to give.\n\u2022 The situation is beyond your role (medical disputes, big billing decisions).\n\u2022 You feel unsafe.\n\nHow to escalate gracefully: 'I want to get this resolved for you \u2014 let me bring in my manager who can help with this.' That's not failure; it's good judgment.\n\nSetting a boundary respectfully: 'I want to help you, and I can't continue if I'm being spoken to this way. Let's work together on a solution.'"
+            },
+            {
+              "type": "callout",
+              "variant": "info",
+              "content": "Escalating to a manager isn't admitting defeat \u2014 it's matching the problem to the right person. Knowing when to do it is a senior-level skill."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A client starts swearing at you and calling you names over a billing issue. What's the appropriate response?",
+              "options": [
+                {
+                  "text": "Swear back so they know how it feels",
+                  "isCorrect": false,
+                  "feedback": "Never \u2014 stay professional regardless of their behavior."
+                },
+                {
+                  "text": "Calmly set a boundary and involve a manager: 'I want to help, and I can't continue being spoken to this way. Let me bring in my manager.'",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 respectful boundary plus escalation to the right person."
+                },
+                {
+                  "text": "Silently take the abuse until they stop",
+                  "isCorrect": false,
+                  "feedback": "You don't have to absorb abuse; set a boundary and get support."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Is escalating to a manager a sign of failure?",
+              "back": "No \u2014 it's good judgment, matching a problem to the person best equipped to solve it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 \u2014 Recovery & Follow-Through",
+      "lessons": [
+        {
+          "title": "Turning a Bad Moment Around",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "How a conflict ends shapes whether the client comes back. Service recovery is powerful \u2014 clients whose problems are handled well often become MORE loyal than those who never had a problem.\n\nAfter de-escalating:\n\u2022 Follow through on whatever you promised \u2014 a callback, a message to the doctor, a corrected bill. Nothing re-ignites anger like a broken promise.\n\u2022 Document the interaction factually so the team is aware.\n\u2022 Reset emotionally before the next client \u2014 don't carry it forward.\n\nA sincere 'Thank you for your patience, and I'm glad we could sort this out' closes the loop with dignity for everyone."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "You've learned to see the fear under the anger, de-escalate with real techniques, set respectful boundaries, and recover gracefully. These skills make you unflappable \u2014 the calm center of a busy clinic."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why is service recovery so valuable?",
+              "back": "Clients whose problems are handled well often become more loyal than those who never had a problem at all."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

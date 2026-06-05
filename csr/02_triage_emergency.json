@@ -1,0 +1,242 @@
+{
+  "title": "CSR: Triage & Emergency Recognition",
+  "description": "The most critical CSR skill: recognizing emergencies on the phone and in the lobby, prioritizing correctly, and getting patients to the medical team fast \u2014 without ever diagnosing. Includes the must-know red flags that save lives.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 What Triage Means for a CSR",
+      "lessons": [
+        {
+          "title": "Your Role: First Filter, Not Diagnostician",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Triage means sorting by urgency \u2014 deciding what needs attention first. In a veterinary clinic, the CSR is the very first triage point, on the phone and at the front desk.\n\nHere's the key boundary: you do NOT diagnose. You are not deciding what's wrong with the animal. You ARE recognizing signs that something might be an emergency and acting fast to get the patient to the people who can help.\n\nThink of yourself as a smoke detector, not a firefighter. You don't put out the fire \u2014 you recognize the smoke and sound the alarm immediately.\n\nGetting this right matters enormously: a missed emergency can cost a life, while treating everything as an emergency creates chaos. The skill is recognizing the real red flags."
+            },
+            {
+              "type": "callout",
+              "variant": "info",
+              "content": "The mindset: 'I don't know what's wrong, but I know this needs the medical team NOW.' That's perfect CSR triage."
+            },
+            {
+              "type": "flashcard",
+              "front": "What is the CSR's role in triage?",
+              "back": "To recognize urgency and route emergencies to the medical team fast \u2014 NOT to diagnose what's wrong."
+            },
+            {
+              "type": "quiz",
+              "question": "Which best describes good CSR triage thinking?",
+              "options": [
+                {
+                  "text": "'This is probably parvo, I'll tell them to isolate the dog'",
+                  "isCorrect": false,
+                  "feedback": "That's diagnosing \u2014 outside the CSR scope."
+                },
+                {
+                  "text": "'I don't know what's wrong, but vomiting blood is a red flag \u2014 I'm getting the medical team now'",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 recognize the red flag, don't diagnose, escalate immediately."
+                },
+                {
+                  "text": "'I'll schedule them for next available'",
+                  "isCorrect": false,
+                  "feedback": "If there's a red flag, routine scheduling could be dangerous."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 The Must-Know Emergency Red Flags",
+      "lessons": [
+        {
+          "title": "Red Flags You Memorize Cold",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "These are the situations where you move immediately \u2014 no hold, no 'let me check the schedule.' Learn them until they're automatic.\n\nBREATHING: gasping, open-mouth breathing (especially cats), blue/gray gums, choking, 'can't catch his breath.'\n\nBLEEDING: heavy or won't-stop bleeding, large wounds.\n\nNEUROLOGIC: active seizure, collapse, unconscious, sudden inability to stand or walk, head trauma.\n\nTOXINS: ate chocolate, xylitol (sugar-free gum), rat poison, antifreeze, human medications, grapes/raisins, lilies (cats), or 'I don't know what he ate but he's acting strange.'\n\nURINARY: a cat (especially male) straining to urinate with little or nothing coming out \u2014 life-threatening blockage.\n\nABDOMEN: distended, hard belly with unproductive retching \u2014 possible bloat (GDV), especially big deep-chested dogs. A true emergency.\n\nBIRTHING: an animal in labor more than a couple hours without producing a baby.\n\nHEAT: panting heavily, collapse, after being in a hot car or yard \u2014 possible heatstroke.\n\nEYES: sudden eye injury or bulging eye \u2014 vision is time-sensitive."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Two that owners routinely underestimate: (1) the male cat who 'can't pee' \u2014 they think constipation, it's a deadly blockage. (2) The big dog with a swelling belly trying to vomit \u2014 bloat kills within hours. Treat both as drop-everything emergencies."
+            },
+            {
+              "type": "flashcard",
+              "front": "Cat straining in the litter box with little/no urine \u2014 emergency or not?",
+              "back": "EMERGENCY. Especially in male cats \u2014 likely a urinary blockage, which is rapidly life-threatening."
+            },
+            {
+              "type": "flashcard",
+              "front": "Big deep-chested dog, swollen hard belly, retching but nothing comes up \u2014 what should you suspect?",
+              "back": "Possible bloat (GDV) \u2014 a true emergency. Get them to the medical team immediately."
+            },
+            {
+              "type": "flashcard",
+              "front": "Name three common household toxins that warrant immediate action.",
+              "back": "Any of: chocolate, xylitol (sugar-free gum), rat poison, antifreeze, human medications, grapes/raisins, lilies (cats)."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A walk-in client says calmly, 'My cat's been in the litter box all morning going in and out but I don't see any pee. He keeps crying.' How do you respond?",
+              "options": [
+                {
+                  "text": "Suggest they try a different litter and monitor at home",
+                  "isCorrect": false,
+                  "feedback": "This is a classic urinary blockage presentation \u2014 monitoring at home could be fatal."
+                },
+                {
+                  "text": "Recognize it as a potential urinary emergency and alert the medical team immediately",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 straining with no urine, especially with vocalizing, is a red-flag blockage. Move fast."
+                },
+                {
+                  "text": "Book the next routine slot in a few days",
+                  "isCorrect": false,
+                  "feedback": "Far too slow for a possible blockage."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 \u2014 Phone Triage in Action",
+      "lessons": [
+        {
+          "title": "Calm Questions That Reveal Urgency",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "When a worried caller is rambling, a few calm, structured questions help you spot urgency fast \u2014 without diagnosing.\n\nGood neutral questions:\n\u2022 'Can you tell me what you're seeing right now?'\n\u2022 'Is he breathing normally?'\n\u2022 'Is she able to stand and walk?'\n\u2022 'Is there any bleeding?'\n\u2022 'When did this start?'\n\u2022 'Do you know if he ate anything unusual?'\n\nThese gather facts without you interpreting them. Stay calm \u2014 your steadiness helps a panicking owner give you usable information. If anything they describe hits a red flag, stop gathering and escalate.\n\nKeep the caller on the line if it's serious; don't make them hang up and call back. Loop in the medical team while staying connected."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "When an owner is panicking, your calm voice is a tool. 'I'm here, I'm going to help you \u2014 can you tell me if he's breathing?' Steadiness gets you answers faster than urgency does."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A caller is sobbing and you can barely understand them \u2014 something about the dog and the floor. What's your best first move?",
+              "options": [
+                {
+                  "text": "Ask them to calm down before you can help",
+                  "isCorrect": false,
+                  "feedback": "Telling someone to calm down rarely works and feels dismissive."
+                },
+                {
+                  "text": "Use a calm, steady voice and ask one simple question: 'I'm here to help \u2014 can you tell me, is your dog breathing?'",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 model calm and ask one clear, answerable question to cut through panic and assess urgency."
+                },
+                {
+                  "text": "Put them on hold until they compose themselves",
+                  "isCorrect": false,
+                  "feedback": "Never put a potential emergency on hold."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Why ask neutral fact-gathering questions instead of 'what do you think is wrong'?",
+              "back": "CSRs gather observable facts (breathing, bleeding, able to stand) without diagnosing \u2014 facts reveal urgency and stay within scope."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 \u2014 In-Clinic & Lobby Emergencies",
+      "lessons": [
+        {
+          "title": "When the Emergency Walks Through the Door",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Sometimes the emergency arrives in your lobby with no warning. Your job is to recognize it and mobilize the team instantly.\n\nWhat to do:\n\u2022 Recognize the red flag (same list as phone triage).\n\u2022 Alert the medical team immediately \u2014 know your clinic's signal or code for 'emergency up front.'\n\u2022 Get the patient back to the treatment area fast if staff direct you to.\n\u2022 Keep the lobby calm \u2014 other clients are watching.\n\u2022 Stay with the owner; they're often in shock and need direction.\n\nAlso watch for human emergencies in the lobby \u2014 a client who faints, has chest pain, or a child in distress. Know where your clinic's first-aid resources are and when to call 911."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Know your clinic's emergency alert system BEFORE you need it \u2014 whether it's an overhead page, a specific phrase, or running to the back. In a real emergency, seconds matter and you won't have time to figure it out."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A client rushes in carrying a limp, unresponsive dog. The lobby is full. What do you do first?",
+              "options": [
+                {
+                  "text": "Ask them to fill out a new-patient form",
+                  "isCorrect": false,
+                  "feedback": "Paperwork waits \u2014 this is a life-or-death moment."
+                },
+                {
+                  "text": "Immediately alert the medical team using your clinic's emergency signal and get the patient back per their direction",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 mobilize the medical team instantly; everything else waits."
+                },
+                {
+                  "text": "Tell them to take a seat and wait their turn",
+                  "isCorrect": false,
+                  "feedback": "An unresponsive patient cannot wait."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "What should you know about your clinic's emergency alert system?",
+              "back": "Exactly how to trigger it (page, code phrase, etc.) BEFORE an emergency happens \u2014 there's no time to figure it out in the moment."
+            },
+            {
+              "type": "quiz",
+              "question": "While handling a lobby emergency, what's an often-forgotten CSR responsibility?",
+              "options": [
+                {
+                  "text": "Finishing the paperwork first",
+                  "isCorrect": false,
+                  "feedback": "Paperwork is never the priority in an emergency."
+                },
+                {
+                  "text": "Keeping the rest of the lobby calm and supporting the owner, who may be in shock",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 managing the environment and the distraught owner is a real part of the role."
+                },
+                {
+                  "text": "Diagnosing the animal",
+                  "isCorrect": false,
+                  "feedback": "Still never the CSR's job, even in emergencies."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 5 \u2014 After the Emergency",
+      "lessons": [
+        {
+          "title": "Documentation, Follow-Up & Self-Care",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Once the crisis is handled, a few things remain.\n\nDocument: note the time the patient arrived, what was reported, and what happened, per clinic protocol. Accurate timing can matter medically and legally.\n\nFollow-up: emergencies often mean a frightened owner waiting for news. Keep them informed per your clinic's process, and handle billing and updates with extra gentleness.\n\nYour own wellbeing: emergencies are intense, and CSRs witness them too. It's normal to feel shaky afterward. Take a breath, debrief with a teammate if you need to, and know that the adrenaline crash is real. Caring for yourself keeps you able to care for the next client."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "You now know how to triage by phone and in person, the red flags that demand immediate action, and how to mobilize the team. You're the early-warning system that gives patients their best chance \u2014 that's a genuinely important job."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why does documenting the timing of an emergency matter?",
+              "back": "Accurate arrival and event times can be medically and legally important, and support good follow-up care."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "title": "CSR: Phone Skills & Telephone Etiquette",
+  "description": "Master the veterinary front-desk phone: professional greetings, call control, triage awareness, taking accurate messages, and handling the high call volume of a busy clinic with warmth and efficiency.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 The Professional Greeting",
+      "lessons": [
+        {
+          "title": "Answering the Phone the Right Way",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "The phone is often a client's very first impression of your clinic \u2014 before they ever walk in. How you answer sets the tone for the entire relationship.\n\nA strong veterinary phone greeting has four parts:\n\n1. A greeting ('Good morning')\n2. The clinic name ('Thank you for calling Happy Paws Veterinary')\n3. Your name ('This is Jordan')\n4. An offer to help ('How can I help you today?')\n\nPut together: 'Good morning, thank you for calling Happy Paws Veterinary, this is Jordan, how can I help you?'\n\nSpeak clearly, smile while you talk (it genuinely changes your tone), and don't rush the greeting even when you're busy."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Smiling while you speak isn't a clich\u00e9 \u2014 it physically warms your voice. Callers can hear the difference, especially when they're anxious about a pet."
+            },
+            {
+              "type": "quiz",
+              "question": "Which greeting is most professional and complete?",
+              "options": [
+                {
+                  "text": "'Hello?'",
+                  "isCorrect": false,
+                  "feedback": "Too informal and gives the caller no information."
+                },
+                {
+                  "text": "'Vet clinic, hold please.'",
+                  "isCorrect": false,
+                  "feedback": "Abrupt, no name, and puts them on hold before helping."
+                },
+                {
+                  "text": "'Good morning, thank you for calling Happy Paws Veterinary, this is Jordan, how can I help you?'",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 greeting, clinic name, your name, and an offer to help."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "What are the four parts of a professional phone greeting?",
+              "back": "Greeting + clinic name + your name + offer to help."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 Call Control & Hold Etiquette",
+      "lessons": [
+        {
+          "title": "Managing Multiple Lines Gracefully",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Busy clinics juggle several calls at once. The skill is keeping every caller feeling respected even when you're stretched.\n\nPutting someone on hold \u2014 the right way:\n\u2022 Ask permission: 'Can I put you on a brief hold?'\n\u2022 Wait for their answer.\n\u2022 Thank them when you return: 'Thank you for holding.'\n\nNever just say 'hold please' and click away. If a hold runs long, check back: 'Thanks for your patience, I'll be just another moment.'\n\nWhen juggling lines, it's fine to answer, greet, and ask a second caller to hold briefly \u2014 but always come back to them. A forgotten caller on hold is a lost client."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Never put an emergency call on hold. If a caller describes a pet that is collapsed, bleeding heavily, struggling to breathe, having seizures, or that got into something toxic \u2014 that call takes priority and goes to the medical team immediately."
+            },
+            {
+              "type": "scenario",
+              "prompt": "You're on a routine scheduling call when another line rings. What's the best move?",
+              "options": [
+                {
+                  "text": "Ignore the second line until you're done",
+                  "isCorrect": false,
+                  "feedback": "A ringing phone left unanswered frustrates clients and may be urgent."
+                },
+                {
+                  "text": "Politely ask the first caller if you can place them on a brief hold, answer the second to assess urgency, then manage both",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 acknowledge both callers and triage. Quick assessment lets you spot an emergency."
+                },
+                {
+                  "text": "Hang up on the first caller",
+                  "isCorrect": false,
+                  "feedback": "Never hang up on a client."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "What must you always do before putting a caller on hold?",
+              "back": "Ask their permission and wait for their answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 \u2014 Phone Triage Awareness",
+      "lessons": [
+        {
+          "title": "Recognizing an Emergency on the Phone",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "CSRs are not medical staff and don't diagnose \u2014 but you ARE the first filter. Recognizing a potential emergency and routing it immediately can save a life.\n\nRed-flag phrases that mean 'get the medical team NOW':\n\u2022 'He's not breathing right' / 'breathing fast' / 'gasping'\n\u2022 'She collapsed' / 'won't stand up'\n\u2022 'There's a lot of blood'\n\u2022 'He's having a seizure'\n\u2022 'She ate [chocolate / rat poison / a sock / medication]'\n\u2022 'His belly is huge and he's trying to vomit but nothing comes up' (possible bloat)\n\u2022 'He can't pee' (especially male cats \u2014 a true emergency)\n\nYou don't decide what's wrong. You recognize the red flag, stay calm, and get the caller to the medical team or tell them to come in immediately, per your clinic's protocol."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "A male cat straining to urinate and producing nothing is a life-threatening emergency (urinary blockage). Memorize this one \u2014 owners often think it's just constipation."
+            },
+            {
+              "type": "quiz",
+              "question": "A caller says their dog 'got into a bag of chocolate an hour ago.' What do you do?",
+              "options": [
+                {
+                  "text": "Tell them it's probably fine, dogs eat chocolate all the time",
+                  "isCorrect": false,
+                  "feedback": "Never give medical reassurance \u2014 chocolate can be toxic depending on type and amount. This needs the medical team."
+                },
+                {
+                  "text": "Treat it as urgent and follow your clinic's protocol to get them to the medical team right away",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 toxin ingestion is time-sensitive. Route it immediately without diagnosing."
+                },
+                {
+                  "text": "Schedule a routine appointment for next week",
+                  "isCorrect": false,
+                  "feedback": "Toxin exposure is potentially urgent, not routine."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "What's the CSR's role in phone triage?",
+              "back": "Not to diagnose, but to recognize red-flag emergencies and route them to the medical team immediately per clinic protocol."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A caller is vague: 'My dog just seems off today, kind of tired.' No red flags, but they're worried. What's appropriate?",
+              "options": [
+                {
+                  "text": "Diagnose it as probably nothing serious",
+                  "isCorrect": false,
+                  "feedback": "CSRs don't diagnose, even reassuringly."
+                },
+                {
+                  "text": "Take details, acknowledge their concern, and offer an appointment or route to the medical team per protocol",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 no red flags, but you still capture info, show care, and let the clinic decide on timing."
+                },
+                {
+                  "text": "Tell them to wait a few days and call back",
+                  "isCorrect": false,
+                  "feedback": "That's offering medical advice you're not positioned to give."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 \u2014 Taking Accurate Messages",
+      "lessons": [
+        {
+          "title": "Capturing the Right Information",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "A message is only useful if it's complete and accurate. A good veterinary phone message captures:\n\n\u2022 Client name and the best callback number\n\u2022 Patient (pet) name and species/breed\n\u2022 The reason for the call, in the client's own words\n\u2022 Any time sensitivity\n\u2022 Who the message is for (which doctor or department)\n\u2022 Date, time, and your initials\n\nRead the callback number back to confirm it. Spell tricky names. Never paraphrase a medical concern into your own interpretation \u2014 write what they actually said.\n\nThen route the message correctly and, when appropriate, tell the client when to expect a callback so they're not left wondering."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Always read the phone number back. A single transposed digit means the callback never happens and the client thinks you ignored them."
+            },
+            {
+              "type": "quiz",
+              "question": "Which of these is essential on every phone message?",
+              "options": [
+                {
+                  "text": "Only the client's first name",
+                  "isCorrect": false,
+                  "feedback": "You need far more \u2014 callback number, pet, reason, and more."
+                },
+                {
+                  "text": "Client name, callback number, pet name, reason, time sensitivity, who it's for, and your initials",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 a complete message lets the right person follow up accurately."
+                },
+                {
+                  "text": "Just the reason for the call",
+                  "isCorrect": false,
+                  "feedback": "Without contact info and the pet's identity, the message can't be acted on."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Why read the callback number back to the client?",
+              "back": "To catch errors \u2014 one wrong digit means the callback fails and the client feels ignored."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 5 \u2014 Voice, Tone & Pace",
+      "lessons": [
+        {
+          "title": "How You Say It Matters as Much as What You Say",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "On the phone, the caller can't see your face \u2014 your voice carries everything.\n\nThree things to manage:\n\nTone \u2014 warm and calm, never flat or rushed. Anxious callers calm down when they hear steadiness.\n\nPace \u2014 slow down, especially with distressed or older callers. Rattling off information fast makes people feel dismissed and they miss what you say.\n\nClarity \u2014 enunciate, especially names, dates, and instructions. Confirm understanding: 'So I have you down for Thursday at 2 \u2014 does that work?'\n\nMatch your energy to the caller's need: brisk and efficient for a quick refill request, slower and gentler for a worried owner."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why slow your pace with a distressed caller?",
+              "back": "Rushing makes people feel dismissed and they miss information; a slower pace conveys care and improves understanding."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "You've covered the core phone skills: a professional greeting, graceful call control, emergency recognition, accurate messages, and a voice that reassures. These make you the calm, capable first voice every clinic needs."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "title": "CSR: Terminology & Abbreviations You'll Actually Use",
+  "description": "The medical words and abbreviations a CSR hears and records every day \u2014 focused on accurate spelling, scheduling, and communication, not clinical interpretation.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 Terms You'll Hear Daily",
+      "lessons": [
+        {
+          "title": "Recognizing and Recording Common Terms",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "You don't diagnose, but you transcribe and schedule around medical terms constantly. Recognizing and spelling them correctly keeps records accurate.\n\nCommon terms at the front desk:\n\u2022 Spay (OHE) and neuter \u2014 the routine sterilization surgeries.\n\u2022 Vaccine / booster \u2014 preventive shots, often on a schedule.\n\u2022 Wellness exam \u2014 routine check-up.\n\u2022 Recheck \u2014 a follow-up visit.\n\u2022 Dental / dental cleaning \u2014 oral care, often under anesthesia.\n\u2022 Anesthesia \u2014 being put under for a procedure.\n\u2022 Bloodwork / labs \u2014 diagnostic tests.\n\nYou'll also hear body-system words. You don't need to interpret them \u2014 just spell and record them correctly. When unsure of a spelling, ask; a misspelled medication in a record is a real problem."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "When you hear an unfamiliar medical word, ask for the spelling rather than guessing. 'Could you spell that medication for me?' is professional, not embarrassing."
+            },
+            {
+              "type": "flashcard",
+              "front": "What does a CSR need to do with medical terms \u2014 interpret them or record them accurately?",
+              "back": "Record them accurately (correct spelling, right patient) \u2014 interpretation is the medical team's job."
+            },
+            {
+              "type": "quiz",
+              "question": "A doctor's note mentions a medication you've never heard of. Before entering it, you should:",
+              "options": [
+                {
+                  "text": "Guess the spelling",
+                  "isCorrect": false,
+                  "feedback": "A misspelled medication can cause real errors; never guess."
+                },
+                {
+                  "text": "Confirm the correct spelling",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 accuracy on medications matters for safety; verify it."
+                },
+                {
+                  "text": "Leave it out",
+                  "isCorrect": false,
+                  "feedback": "Omitting it creates an incomplete record; confirm and enter it."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 Front-Desk Abbreviations",
+      "lessons": [
+        {
+          "title": "Shorthand You'll See on Schedules and Records",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Abbreviations fill veterinary schedules and records. Here are ones a CSR commonly encounters:\n\nScheduling/visit types: OHE (spay), recheck, wellness, vax (vaccines), dental.\n\nGeneral record shorthand you'll see: Hx (history), Dx (diagnosis), Tx (treatment), Rx (prescription), Px (prognosis), PE (physical exam), wt (weight), TPR (temperature/pulse/respiration), WNL (within normal limits).\n\nAppointment notes: HBC (hit by car \u2014 an emergency), ADR ('ain't doing right' \u2014 a vague illness note).\n\nYou don't need every clinical abbreviation, but recognizing these helps you read schedules, route appointments, and understand notes without constantly asking."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Recognize HBC (Hit By Car) instantly \u2014 it signals an emergency or urgent case, and how you handle that appointment matters."
+            },
+            {
+              "type": "flashcard",
+              "front": "What does 'Rx' mean?",
+              "back": "Prescription."
+            },
+            {
+              "type": "flashcard",
+              "front": "What does 'HBC' mean and why should a CSR recognize it?",
+              "back": "Hit By Car \u2014 it signals an emergency/urgent case that needs appropriate prioritization."
+            },
+            {
+              "type": "flashcard",
+              "front": "What does 'OHE' refer to on a schedule?",
+              "back": "Ovariohysterectomy \u2014 a spay."
+            },
+            {
+              "type": "quiz",
+              "question": "You see 'ADR' in an appointment note. What does it tell you?",
+              "options": [
+                {
+                  "text": "A specific diagnosis",
+                  "isCorrect": false,
+                  "feedback": "ADR isn't a diagnosis \u2014 it means 'ain't doing right,' a vague sign of illness."
+                },
+                {
+                  "text": "The pet is generally unwell in a nonspecific way ('ain't doing right')",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 ADR flags a vague 'something's off' presentation."
+                },
+                {
+                  "text": "The appointment is cancelled",
+                  "isCorrect": false,
+                  "feedback": "ADR has nothing to do with cancellation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

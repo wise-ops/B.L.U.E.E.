@@ -1,0 +1,166 @@
+{
+  "title": "CSR: Grief, Loss & Euthanasia Support",
+  "description": "Support clients through the hardest moments \u2014 end-of-life decisions, euthanasia appointments, and loss. Learn compassionate language, logistics handled with dignity, and how to care for yourself through it.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 Understanding Pet Loss",
+      "lessons": [
+        {
+          "title": "Grief Is Real and Deserves Respect",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "The bond between people and their pets is profound, and losing a pet is a genuine bereavement. For many clients, a pet is a child, a best friend, the one constant through hard years. Your compassion in these moments is something they will never forget.\n\nGrief looks different for everyone \u2014 tears, numbness, anger, even awkward jokes. There's no 'right' way, and your job isn't to manage their grief but to hold space for it with kindness and handle the practical side gently so they can focus on saying goodbye."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Never minimize a loss with 'it was just a pet' or 'you can get another one.' To them, this is family. Meet them where they are."
+            },
+            {
+              "type": "flashcard",
+              "front": "What is the CSR's role during a client's pet loss?",
+              "back": "To hold space with compassion and handle logistics gently \u2014 not to manage or fix their grief."
+            },
+            {
+              "type": "quiz",
+              "question": "A client is crying at the desk after a euthanasia. What's the most compassionate response?",
+              "options": [
+                {
+                  "text": "'At least he's not suffering anymore, time to move on.'",
+                  "isCorrect": false,
+                  "feedback": "Dismissive and rushes their grief."
+                },
+                {
+                  "text": "A gentle, quiet presence: 'I'm so sorry. Take all the time you need.'",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 simple, warm acknowledgment and patience honor the moment."
+                },
+                {
+                  "text": "Quickly process the payment to get them out the door",
+                  "isCorrect": false,
+                  "feedback": "Rushing a grieving client is cold and memorable for the wrong reasons."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 Compassionate Language",
+      "lessons": [
+        {
+          "title": "What to Say and What to Avoid",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Words matter enormously in these moments.\n\nHelpful things to say:\n\u2022 'I'm so sorry for your loss.'\n\u2022 'Take all the time you need.'\n\u2022 'He was clearly very loved.'\n\u2022 'Is there anything I can do to make this easier?'\n\nThings to avoid:\n\u2022 'I know exactly how you feel' (you don't, and it centers you).\n\u2022 'It was just a pet' / 'You can get another.'\n\u2022 'It was for the best' / 'At least...'\n\u2022 Rushing, or filling silence with chatter.\n\nUse the pet's name. Saying 'I'm so sorry about Max' is far warmer than 'your dog.' And it's okay to be quiet \u2014 a gentle presence often comforts more than words."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Avoid 'I know how you feel.' Even with the best intent, it shifts focus to you and can feel dismissive. 'I'm so sorry' is enough."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why use the pet's name when offering condolences?",
+              "back": "It honors the individual relationship \u2014 'I'm so sorry about Max' is far warmer and more personal than 'your dog.'"
+            },
+            {
+              "type": "scenario",
+              "prompt": "A client calls to ask about scheduling a euthanasia for their elderly cat. Their voice is shaking. How do you handle the call?",
+              "options": [
+                {
+                  "text": "Briskly book the soonest slot and move on",
+                  "isCorrect": false,
+                  "feedback": "Efficiency without warmth feels cold in this moment."
+                },
+                {
+                  "text": "Speak gently and unhurried, use the cat's name, explain the process kindly, and reassure them you'll make it as peaceful as possible",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 gentleness, the pet's name, clear compassionate logistics, and reassurance."
+                },
+                {
+                  "text": "Tell them they're making the right choice before they've decided anything",
+                  "isCorrect": false,
+                  "feedback": "Don't presume their decision; support them through it."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 \u2014 Handling the Logistics with Dignity",
+      "lessons": [
+        {
+          "title": "The Practical Side, Done Gently",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Euthanasia visits involve logistics that, handled clumsily, add pain \u2014 and handled well, ease it.\n\nThoughtful practices many clinics use:\n\u2022 Offer a quiet entrance, a private room, or a low-traffic appointment time.\n\u2022 Handle payment beforehand or afterward by phone, so the family isn't standing at the desk crying while you run a card.\n\u2022 Know your clinic's options for aftercare (burial, cremation, paw prints, memorial keepsakes) and explain them gently, without pressure.\n\u2022 Mark the record so the whole team knows and treats the family with care.\n\u2022 A condolence card or call afterward means the world.\n\nThe goal: let the family focus entirely on their goodbye while you quietly handle everything else."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Handling payment privately \u2014 before or after, away from the lobby \u2014 is one of the kindest logistical things a clinic can do. No grieving family should settle a bill at a busy front desk."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why arrange payment before or after a euthanasia, away from the desk?",
+              "back": "So the grieving family isn't standing at a busy front desk crying while a card is run \u2014 it preserves their dignity."
+            },
+            {
+              "type": "quiz",
+              "question": "Which logistic shows compassion during a euthanasia visit?",
+              "options": [
+                {
+                  "text": "Having them wait in the full lobby like any appointment",
+                  "isCorrect": false,
+                  "feedback": "A grieving family in a crowded lobby is avoidable distress."
+                },
+                {
+                  "text": "Offering a private room or quiet entrance and handling payment discreetly",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 privacy and discreet logistics let the family focus on their goodbye."
+                },
+                {
+                  "text": "Asking them to choose cremation options loudly at the front desk",
+                  "isCorrect": false,
+                  "feedback": "Sensitive choices deserve a gentle, private conversation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 \u2014 Caring for Yourself",
+      "lessons": [
+        {
+          "title": "Compassion Fatigue Is Real",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Supporting grieving clients, day after day, takes a toll. This is called compassion fatigue, and it's a real, recognized strain in veterinary work \u2014 not a weakness.\n\nWays to protect yourself:\n\u2022 Acknowledge that these days are hard; don't pretend they're not.\n\u2022 Take a moment to reset after an emotional appointment before the next client.\n\u2022 Lean on your team \u2014 debriefing with coworkers who understand helps.\n\u2022 Notice signs of burnout in yourself (dread, numbness, exhaustion) and take them seriously.\n\u2022 Use whatever support your clinic offers.\n\nYou can't pour from an empty cup. Caring for yourself is what lets you keep caring for clients."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "You've learned to support clients through loss with genuine compassion, choose your words with care, handle logistics with dignity, and protect your own wellbeing. This is some of the most meaningful work you'll do \u2014 and clients remember it forever."
+            },
+            {
+              "type": "flashcard",
+              "front": "What is compassion fatigue?",
+              "back": "The real emotional toll of repeatedly supporting others through distress and grief \u2014 common in veterinary work and not a weakness."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

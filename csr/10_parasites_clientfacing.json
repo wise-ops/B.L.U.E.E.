@@ -1,0 +1,97 @@
+{
+  "title": "CSR: Parasites & Prevention (Client-Facing)",
+  "description": "What a CSR needs to know about parasites \u2014 not to diagnose, but to confidently answer common client questions, support prevention sales and scheduling, and recognize when to route concerns to the medical team.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 Parasite Basics for Client Conversations",
+      "lessons": [
+        {
+          "title": "Enough to Talk Confidently With Owners",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "You don't need a technician's depth, but you'll field constant client questions about parasites, so a working foundation helps.\n\nThe big ones clients ask about:\n\u2022 Fleas \u2014 itchy, visible, common; clients often see 'specks' (flea dirt).\n\u2022 Ticks \u2014 clients worry about Lyme and finding ticks after walks.\n\u2022 Heartworm \u2014 spread by mosquitoes, prevented with monthly products; clients ask why testing and prevention matter.\n\u2022 Intestinal worms \u2014 roundworms, hookworms, tapeworms; clients notice 'worms' in stool or 'rice' near the tail.\n\nYour role: answer general questions, reinforce why prevention matters, and route anything medical ('is my dog sick?') to the team. You're informed support, not a diagnostician."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "When a client describes something that sounds medical ('he's losing weight and I saw worms'), capture it and route to the team rather than reassuring or interpreting."
+            },
+            {
+              "type": "flashcard",
+              "front": "What's the CSR's role regarding parasite questions?",
+              "back": "Answer general informational questions and reinforce prevention \u2014 but route any 'is my pet sick' questions to the medical team."
+            },
+            {
+              "type": "quiz",
+              "question": "A client asks, 'Why does my indoor cat need flea prevention? She never goes outside.' What's a good CSR response?",
+              "options": [
+                {
+                  "text": "'You're right, indoor cats don't need it.'",
+                  "isCorrect": false,
+                  "feedback": "Inaccurate \u2014 fleas can come indoors on people, other pets, and pests; the medical team recommends prevention for good reason."
+                },
+                {
+                  "text": "'Fleas can still get inside on other pets or even on us, so the doctor recommends year-round prevention. I can tell you more or have the team explain the details.'",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 accurate general info, supports the recommendation, offers to route for detail."
+                },
+                {
+                  "text": "Diagnose whether the cat currently has fleas",
+                  "isCorrect": false,
+                  "feedback": "Not the CSR's role."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 Supporting Prevention & Zoonotic Basics",
+      "lessons": [
+        {
+          "title": "Prevention Scheduling and Public Health",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "A big part of the CSR role is supporting the clinic's prevention efforts and handling related logistics:\n\n\u2022 Scheduling fecal tests, heartworm tests, and prevention refills.\n\u2022 Explaining (at a general level) why year-round prevention is recommended.\n\u2022 Helping clients understand product options the doctor recommended (not prescribing \u2014 supporting).\n\nZoonotic basics you should know: some parasites (like roundworms and hookworms) can affect people, especially children and those with weak immune systems. This is why the clinic emphasizes prevention, prompt stool cleanup, and hygiene. If a client asks detailed human-health questions, encourage them to talk to their physician and route veterinary questions to the team."
+            },
+            {
+              "type": "callout",
+              "variant": "info",
+              "content": "Zoonotic means it can spread between animals and people. You don't need details \u2014 just enough to take client concerns seriously and route them appropriately."
+            },
+            {
+              "type": "flashcard",
+              "front": "What does 'zoonotic' mean, and why does it matter to a CSR?",
+              "back": "It means a parasite/disease can spread between animals and people \u2014 it's why prevention and hygiene matter, and why you take such concerns seriously."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A pregnant client mentions she's worried about catching something from the new puppy's worms. How do you handle it?",
+              "options": [
+                {
+                  "text": "Reassure her there's no risk",
+                  "isCorrect": false,
+                  "feedback": "Some parasites are zoonotic and pregnancy is a sensitive situation \u2014 don't give medical reassurance."
+                },
+                {
+                  "text": "Take her concern seriously, encourage her to talk with her physician, and route the puppy's parasite question to the medical team",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 validate, direct human-health questions to her doctor, and route the veterinary side to the team."
+                },
+                {
+                  "text": "Give her detailed medical advice about toxoplasmosis",
+                  "isCorrect": false,
+                  "feedback": "Outside your scope \u2014 route to the appropriate professionals."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

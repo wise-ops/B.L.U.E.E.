@@ -1,0 +1,100 @@
+{
+  "title": "CSR: Confidentiality & Client Trust",
+  "description": "Protecting client and patient information is central to the CSR role. Learn what confidentiality means in practice, who can receive information, everyday discretion, and how trust underpins the whole client relationship.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 What Confidentiality Means",
+      "lessons": [
+        {
+          "title": "Entrusted With Private Information",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "CSRs are entrusted with sensitive client and patient information and are expected to protect it at all times. Medical records, client details, and conversations must remain confidential and be shared only with authorized individuals as required for patient care.\n\nThis isn't just policy \u2014 it's the foundation of trust. Clients share personal information (financial situations, home circumstances, emotional moments) assuming it stays private. Protecting that information is part of how you earn and keep their trust, and it's often a legal requirement too."
+            },
+            {
+              "type": "callout",
+              "variant": "info",
+              "content": "Confidentiality covers more than medical records \u2014 it includes financial details, personal circumstances, and anything you observe or overhear about a client."
+            },
+            {
+              "type": "flashcard",
+              "front": "Who can patient and client information be shared with?",
+              "back": "Only the owner or individuals authorized by them, as needed for patient care \u2014 never unauthorized third parties."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 Confidentiality in Daily Practice",
+      "lessons": [
+        {
+          "title": "Everyday Discretion",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Confidentiality plays out in small daily moments:\n\n\u2022 Don't discuss clients or patients where others can overhear \u2014 including in the lobby, on personal social media, or with friends.\n\u2022 Don't share information with family members, neighbors, or exes who aren't authorized, no matter how caring they sound.\n\u2022 Be careful with screens and printouts \u2014 don't leave records visible to other clients at the desk.\n\u2022 Verify identity before discussing details over the phone.\n\u2022 Only access records you have a legitimate work reason to see.\n\nThe well-meaning neighbor, the curious relative, the ex-partner asking about 'their' pet \u2014 all common situations where you kindly but firmly protect the owner's privacy."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Social media is a confidentiality minefield. Never post about specific clients, patients, or cases \u2014 even without names, details can identify people, and it breaches trust."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A man calls saying he's the owner's ex-partner and wants to know about the cat's recent visit 'because it's half his cat.' What do you do?",
+              "options": [
+                {
+                  "text": "Share the information since he claims partial ownership",
+                  "isCorrect": false,
+                  "feedback": "You can't verify his authorization; sharing breaches confidentiality."
+                },
+                {
+                  "text": "Politely explain you can only share information with the authorized owner on the account",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 protect privacy; direct him to work it out with the account owner."
+                },
+                {
+                  "text": "Tell him the owner's new address so he can ask them",
+                  "isCorrect": false,
+                  "feedback": "Sharing the owner's personal info is a serious breach."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Can you discuss a case on social media if you leave out names?",
+              "back": "No \u2014 details can still identify clients and patients, and it breaches confidentiality and trust."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 \u2014 Trust as the Foundation",
+      "lessons": [
+        {
+          "title": "Why It All Comes Back to Trust",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Maintaining confidentiality builds client trust and is essential to the integrity of the clinic and the care team.\n\nClients choose a clinic they trust \u2014 with their pet's life, their personal information, and their hard moments. Every time you protect their privacy, handle their information carefully, and treat their circumstances with discretion, you reinforce that trust. Every breach, however small, erodes it.\n\nTrust is the clinic's most valuable asset, and the front desk is where it's built or broken every single day. You are a guardian of that trust."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "You've learned what confidentiality requires, how to practice everyday discretion, how to handle unauthorized requests, and why trust is the foundation of everything. Protecting client privacy is one of the most important responsibilities you hold."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why is confidentiality described as protecting the clinic's most valuable asset?",
+              "back": "Because trust is the clinic's most valuable asset, and confidentiality is how that trust is built or broken at the front desk every day."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

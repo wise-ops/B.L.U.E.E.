@@ -1,0 +1,147 @@
+{
+  "title": "CSR: Surgery & Procedures (Scheduling & Client Care)",
+  "description": "Everything a CSR handles around surgical and procedure days \u2014 scheduling, pre-op client instructions, estimates and consent, drop-off, and discharge coordination. No clinical surgery knowledge required.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 Scheduling & Pre-Op Instructions",
+      "lessons": [
+        {
+          "title": "Setting Up a Smooth Surgery Day",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Surgical days run on tight choreography, and the CSR sets them up. Your responsibilities typically include:\n\nScheduling: booking the procedure into the right surgical slot per clinic protocol, and coordinating drop-off times.\n\nPre-op instructions \u2014 this is critical: clients usually must follow fasting instructions (often no food after a certain time the night before, sometimes specific water rules). Conveying these clearly and confirming the client understands prevents canceled surgeries and safety issues.\n\nConfirming details: drop-off time, what to bring, expected pick-up window.\n\nGetting fasting instructions wrong can mean a surgery has to be canceled (a fasted patient is safer under anesthesia), so accuracy and clear confirmation here genuinely matter."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Always confirm the client understands pre-op fasting instructions \u2014 repeat them and have the client acknowledge. A pet that ate breakfast may have its surgery postponed for safety."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why are pre-op fasting instructions so important for a CSR to convey clearly?",
+              "back": "A fasted patient is safer under anesthesia; if instructions aren't followed, the surgery may have to be canceled or postponed."
+            },
+            {
+              "type": "scenario",
+              "prompt": "A client booking a spay asks, 'Can she eat breakfast that morning?' What's the best response?",
+              "options": [
+                {
+                  "text": "'Sure, a light breakfast is fine.'",
+                  "isCorrect": false,
+                  "feedback": "This contradicts standard fasting protocol and could force a cancellation or risk safety."
+                },
+                {
+                  "text": "Convey your clinic's fasting instructions clearly (typically no food after a set time the night before) and confirm she understands",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 give the clinic's specific fasting guidance and confirm understanding."
+                },
+                {
+                  "text": "Tell her it doesn't matter",
+                  "isCorrect": false,
+                  "feedback": "Fasting matters significantly for anesthetic safety."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 Estimates, Consent & Drop-Off",
+      "lessons": [
+        {
+          "title": "The Paperwork and Hand-Off",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Surgery involves important paperwork and a smooth hand-off:\n\nEstimates: provide a clear written estimate for the procedure beforehand so there are no surprises (you covered estimates in your Payments course \u2014 surgery is where they matter most).\n\nConsent forms: ensure consent is completed and signed, and that the client has provided current contact numbers so the team can reach them during the procedure if needed.\n\nDrop-off: confirm the team can reach the client during the day, note any special instructions, and reassure an anxious owner. Leaving a pet for surgery is stressful \u2014 warmth here matters.\n\nDouble-check you have a reachable phone number for the day. If the doctor needs consent for something found during surgery, they must be able to reach the owner."
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "content": "Always confirm a phone number where the owner can be reached DURING the procedure. If the team finds something needing additional consent mid-surgery, an unreachable owner is a serious problem."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why must a CSR confirm a reachable phone number on a surgery day?",
+              "back": "The medical team may need to reach the owner during the procedure for additional consent if something is found \u2014 an unreachable owner is a serious problem."
+            },
+            {
+              "type": "quiz",
+              "question": "Before a surgery drop-off, which is essential to confirm?",
+              "options": [
+                {
+                  "text": "Only the pick-up time",
+                  "isCorrect": false,
+                  "feedback": "Important, but not the most safety-critical item here."
+                },
+                {
+                  "text": "Signed consent and a phone number where the owner is reachable during the procedure",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 consent and day-of reachability are essential for safe surgical care."
+                },
+                {
+                  "text": "The client's favorite color",
+                  "isCorrect": false,
+                  "feedback": "Irrelevant to surgical safety."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 \u2014 Discharge & Follow-Up",
+      "lessons": [
+        {
+          "title": "Sending Them Home Right",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Discharge is where the CSR ensures the pet goes home safely and the owner knows what to do.\n\nA good surgical discharge:\n\u2022 Coordinates pick-up timing with the medical team (the pet must be adequately recovered).\n\u2022 Ensures the client leaves with written post-op instructions (activity restrictions, incision care, medications, warning signs to watch for).\n\u2022 Schedules any recheck or suture-removal appointment before they leave.\n\u2022 Reviews medications and confirms the client understands dosing.\n\u2022 Provides clear guidance on who to call with post-op concerns.\n\nMany post-op problems are prevented by clear discharge: a client who understands 'keep her quiet for 10 days and call us if the incision looks red or swollen' is set up for success."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Written post-op instructions are essential \u2014 owners are often distracted with relief at pickup and won't remember spoken directions. Send everything in writing and schedule the recheck before they leave."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why provide written post-op discharge instructions?",
+              "back": "Owners are distracted at pickup and forget spoken directions; written instructions on activity, incision care, meds, and warning signs prevent post-op problems."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At surgical discharge, the owner seems rushed and says 'just give me the basics.' What should you ensure before they leave?",
+              "options": [
+                {
+                  "text": "Let them go with just the pet to save time",
+                  "isCorrect": false,
+                  "feedback": "Skipping discharge instructions risks post-op complications."
+                },
+                {
+                  "text": "Make sure they leave with written instructions, understand meds and activity restrictions, know warning signs, and have a recheck scheduled",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 the essentials of safe discharge must be covered even with a rushed owner."
+                },
+                {
+                  "text": "Tell them to figure it out and call if there's a problem",
+                  "isCorrect": false,
+                  "feedback": "Inadequate \u2014 clear discharge prevents problems in the first place."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "You've covered the full surgical-day arc from a CSR's seat: scheduling, critical pre-op fasting instructions, estimates and consent, reachable contact info, and safe discharge with clear follow-up. You keep surgery days running safely and smoothly."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

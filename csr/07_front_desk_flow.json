@@ -1,0 +1,126 @@
+{
+  "title": "CSR: Check-In, Check-Out & Front Desk Flow",
+  "description": "The operational backbone of the front desk: smooth check-ins, accurate check-outs, managing the lobby, coordinating with the medical team, and keeping information and patients moving correctly.",
+  "category": "Client Service Representative",
+  "modules": [
+    {
+      "title": "Module 1 \u2014 The Check-In",
+      "lessons": [
+        {
+          "title": "Starting the Visit Right",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Check-in sets up the entire visit for success. A good check-in:\n\u2022 Greets the client warmly by name when possible.\n\u2022 Confirms the reason for the visit and updates any changed info (address, phone, etc.).\n\u2022 Verifies the patient's details.\n\u2022 Flags anything the medical team needs to know (an aggressive note, a fearful patient, a new concern the owner mentions).\n\u2022 Sets expectations: 'The technician will be right with you.'\n\nThe information you gather and pass back determines whether the medical team is prepared. A check-in that captures 'owner says limping started after a fall yesterday' gives the team a head start."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Listen for new information at check-in. Owners often mention the real concern casually \u2014 'oh, and he's been drinking a ton of water' \u2014 that the appointment wasn't booked for. Capture it and pass it back."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why is information captured at check-in so important?",
+              "back": "It determines whether the medical team is prepared \u2014 new details the owner mentions can change the whole visit."
+            },
+            {
+              "type": "quiz",
+              "question": "At check-in, an owner casually mentions their cat 'has been throwing up a lot lately,' though the visit was booked for a nail trim. What do you do?",
+              "options": [
+                {
+                  "text": "Ignore it since the visit is just for nails",
+                  "isCorrect": false,
+                  "feedback": "New symptoms matter \u2014 the medical team should know."
+                },
+                {
+                  "text": "Note it and pass it to the medical team so they can address it",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 capture the new concern and relay it; it may change the visit."
+                },
+                {
+                  "text": "Diagnose it yourself",
+                  "isCorrect": false,
+                  "feedback": "Never diagnose \u2014 just capture and relay."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 \u2014 The Check-Out",
+      "lessons": [
+        {
+          "title": "Ending the Visit Accurately",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "Check-out is where the visit's loose ends get tied \u2014 and where errors cause problems later.\n\nA solid check-out:\n\u2022 Reviews what the doctor recommended (follow-up visits, medications, instructions).\n\u2022 Goes over the invoice clearly, matching it to the estimate.\n\u2022 Schedules any follow-ups or rechecks before they leave.\n\u2022 Ensures the client leaves with medications, written instructions, and a clear understanding of next steps.\n\u2022 Confirms they have no lingering questions.\n\nThe goal: the client walks out knowing exactly what happens next and why. A confused client becomes a phone call (or a missed follow-up) later."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "Book the follow-up before they leave, not 'call us later.' Appointments scheduled at checkout actually happen; 'call us later' often doesn't."
+            },
+            {
+              "type": "flashcard",
+              "front": "Why schedule follow-ups during check-out rather than telling the client to call later?",
+              "back": "Follow-ups booked at checkout actually happen; 'call us later' often falls through."
+            },
+            {
+              "type": "scenario",
+              "prompt": "At check-out, the invoice is noticeably higher than the estimate the client signed. What's the right approach?",
+              "options": [
+                {
+                  "text": "Process it quietly and hope they don't notice",
+                  "isCorrect": false,
+                  "feedback": "This guarantees an angry call later and destroys trust."
+                },
+                {
+                  "text": "Proactively explain the difference, check it's correct, and involve the medical team or a manager if needed",
+                  "isCorrect": true,
+                  "feedback": "Correct \u2014 transparency about the difference prevents conflict and shows integrity."
+                },
+                {
+                  "text": "Tell them estimates never mean anything",
+                  "isCorrect": false,
+                  "feedback": "Dismissive and untrue; estimates matter and discrepancies deserve explanation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 \u2014 Lobby & Team Coordination",
+      "lessons": [
+        {
+          "title": "Conducting the Front-of-House",
+          "blocks": [
+            {
+              "type": "text",
+              "content": "The CSR runs the front-of-house like a conductor \u2014 managing the physical lobby and the flow of information between clients and the medical team.\n\nLobby management:\n\u2022 Keep an eye on the waiting area; separate anxious or reactive animals when possible (a fearful cat next to a barking dog is a problem).\n\u2022 Watch for animals or people in distress.\n\u2022 Keep the space calm and welcoming.\n\nTeam coordination:\n\u2022 You're the bridge between the back and the front. Relay information accurately in both directions.\n\u2022 Keep the medical team aware of arrivals, walk-ins, and waiting clients.\n\u2022 Communicate delays and changes promptly.\n\nA great CSR makes the whole clinic run more smoothly because information flows correctly through them."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "In the lobby, watch animal body language. Separating a terrified cat carrier from an excited dog before there's an incident is the kind of quiet save that prevents chaos."
+            },
+            {
+              "type": "flashcard",
+              "front": "How is the CSR like a conductor?",
+              "back": "They manage the lobby and the flow of information between clients and the medical team, keeping the whole clinic running smoothly."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "You've mastered the front-desk backbone: smooth check-ins that prepare the team, accurate check-outs that prevent problems, and lobby/team coordination that keeps everything flowing. You're the operational heart of the clinic."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
