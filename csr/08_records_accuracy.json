@@ -1,122 +1,307 @@
 {
   "title": "CSR: Medical Records & Data Accuracy",
-  "description": "The CSR is the guardian of accurate records. Learn why precise data entry matters for patient safety, how to capture information correctly, common errors to avoid, and how records support the whole care team.",
+  "description": "A CSR course on accurate client/patient information, medical record requests, documentation, messages, email/fax handling, and preventing errors in veterinary workflows.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 Why Accuracy Saves Lives",
+      "title": "Module 1 — Records Are Patient Care",
       "lessons": [
         {
-          "title": "The CSR as Data Guardian",
+          "title": "Why Accuracy Matters",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A callback number sounds unclear on voicemail.",
+              "options": [
+                {
+                  "text": "Guess the number.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Make a reasonable effort to verify according to workflow and document the issue.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Delete the message.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "Every piece of information you enter ripples through patient care. A wrong weight leads to a wrong drug dose. A wrong phone number means a critical callback never happens. A misspelled medication or a note in the wrong patient's file can cause real harm.\n\nThe CSR is often the first and last person to touch a record. Your accuracy is a patient-safety function, not just clerical work. When you enter data carefully and double-check it, you're protecting animals you may never even see in the exam room."
+              "content": "Records affect reminders, vaccines, prescriptions, callbacks, referrals, estimates, and patient safety. A wrong phone number or missing record can delay care."
             },
             {
               "type": "callout",
-              "variant": "warning",
-              "content": "A weight entered wrong by a decimal point (e.g., 8.0 lb typed as 80 lb) can lead to a dangerous medication overdose. Always double-check weights and numbers."
-            },
-            {
-              "type": "flashcard",
-              "front": "Why is CSR data entry a patient-safety function?",
-              "back": "Wrong data (weight, allergies, contact info) ripples into wrong doses, missed callbacks, and real harm \u2014 accuracy protects patients."
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "You're entering a patient's weight and aren't sure if you heard '14' or '40' pounds. What should you do?",
+              "question": "Why is data accuracy patient care?",
               "options": [
                 {
-                  "text": "Pick one and move on",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "Guessing a weight can lead to dangerous dosing errors."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "Confirm the correct weight before entering it",
+                  "text": "Accurate information allows the team to reach clients and make correct workflow decisions.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 verify rather than guess; weight drives drug dosing."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Leave it blank and hope someone catches it",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Missing data causes its own problems; confirm and enter it."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 2 \u2014 Capturing Information Correctly",
-      "lessons": [
-        {
-          "title": "Getting It Right the First Time",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "Accurate records start with good capture habits:\n\n\u2022 Confirm spellings of names (client, pet, medications) \u2014 read them back.\n\u2022 Verify contact info at every visit; people change numbers constantly.\n\u2022 Record concerns in the client's own words, not your interpretation. 'Owner reports dog limping on left rear since yesterday' \u2014 not 'dog has a leg problem.'\n\u2022 Note exactly who said what and when.\n\u2022 Flag allergies and warnings prominently per your clinic's system.\n\u2022 Never guess \u2014 if unsure, ask.\n\nGood capture means the medical team can trust what they read without re-verifying everything."
-            },
-            {
-              "type": "callout",
-              "variant": "tip",
-              "content": "Record what the owner actually said, not your translation of it. 'He's been coughing at night' is more useful to the doctor than your guess of what that means."
             },
             {
               "type": "flashcard",
-              "front": "Should you record a client's concern in their words or your interpretation?",
-              "back": "Their own words \u2014 interpretation can lose or distort important detail the medical team needs."
-            },
-            {
-              "type": "scenario",
-              "prompt": "An owner describes a symptom using vague language you think you understand. How do you record it?",
-              "options": [
-                {
-                  "text": "Write your medical interpretation of what they probably mean",
-                  "isCorrect": false,
-                  "feedback": "Interpreting risks distorting the information and oversteps your role."
-                },
-                {
-                  "text": "Record their actual words and let the medical team interpret",
-                  "isCorrect": true,
-                  "feedback": "Correct \u2014 capture faithfully; interpretation is the medical team's job."
-                },
-                {
-                  "text": "Leave it out if it's vague",
-                  "isCorrect": false,
-                  "feedback": "Even vague information can matter; capture it as stated."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 3 \u2014 Common Errors & How Records Help the Team",
-      "lessons": [
-        {
-          "title": "Avoiding the Pitfalls",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "Common record errors to guard against:\n\u2022 Entering data in the wrong patient's file (especially with similar names or multi-pet households).\n\u2022 Typos in numbers \u2014 weights, doses, phone numbers.\n\u2022 Outdated contact info.\n\u2022 Incomplete notes that leave the next person guessing.\n\u2022 Not flagging important warnings (aggression, allergies).\n\nWhen records are accurate and complete, the whole team benefits: the doctor walks in prepared, the technician doses safely, the next CSR can follow up correctly, and the client experiences a clinic that 'remembers' them. Good records are how a busy team stays coordinated across many patients and visits."
+              "front": "Record accuracy",
+              "back": "Small errors can create big delays."
             },
             {
               "type": "callout",
-              "variant": "tip",
-              "content": "In multi-pet households, always confirm you have the right patient selected before entering anything. 'Bella' the cat and 'Bella' the dog in the same family is a classic mix-up."
-            },
-            {
-              "type": "flashcard",
-              "front": "Name a common record error in multi-pet households.",
-              "back": "Entering information in the wrong pet's file when pets have the same or similar names \u2014 always confirm the correct patient."
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
             },
             {
               "type": "callout",
               "variant": "success",
-              "content": "You now understand that accurate records are patient safety, not paperwork. Careful capture, faithful notes, and error awareness make you a trusted guardian of the information the whole team depends on."
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 — Medical Record Requests",
+      "lessons": [
+        {
+          "title": "Send Safely",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A caller not listed on the account asks for full records.",
+              "options": [
+                {
+                  "text": "Send because they know the pet name.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Follow authorization/privacy policy before releasing anything.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Send to a random email they give you.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Records should only be released according to clinic policy, authorization rules, and correct recipient verification. Slow down with emails, fax numbers, and attachments."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What must be verified before sending records?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Authorization, correct patient, correct recipient, and delivery method.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Record release",
+              "back": "Verify before sending."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Documentation",
+      "lessons": [
+        {
+          "title": "Writing Notes the Team Can Use",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "Which note is best after a refill call?",
+              "options": [
+                {
+                  "text": "“Owner annoying.”",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Client requested refill; exam status checked; callback confirmed; request routed for doctor approval.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "“Call back.”",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Good documentation is factual, specific, and complete. It includes who called, patient, callback, concern, urgency, what was promised, and routing. Avoid judgmental wording."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What should notes avoid?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Assumptions, personal frustration, and vague wording.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Good note",
+              "back": "Specific, factual, actionable."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 — Email and Fax Workflow",
+      "lessons": [
+        {
+          "title": "Preventing Silent Errors",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A referral hospital says records never arrived.",
+              "options": [
+                {
+                  "text": "Blame them and do nothing.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Verify recipient, resend according to process, and document the action.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Send every record to every address you can find.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Emails and faxes can fail quietly if addresses, attachments, or recipients are wrong. The CSR should use approved processes and check for confirmation when required."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What prevents record-transfer errors?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Correct recipient verification, approved process, and documentation.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Email/fax",
+              "back": "Verify, send, document."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }

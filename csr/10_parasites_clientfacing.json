@@ -1,93 +1,307 @@
 {
   "title": "CSR: Parasites & Prevention (Client-Facing)",
-  "description": "What a CSR needs to know about parasites \u2014 not to diagnose, but to confidently answer common client questions, support prevention sales and scheduling, and recognize when to route concerns to the medical team.",
+  "description": "A client-facing CSR course on common parasite-prevention conversations, fecal samples, heartworm prevention basics, flea/tick questions, and knowing when to route medical questions.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 Parasite Basics for Client Conversations",
+      "title": "Module 1 — Client-Facing Parasite Knowledge",
       "lessons": [
         {
-          "title": "Enough to Talk Confidently With Owners",
+          "title": "Educate Without Diagnosing",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A client asks if a positive fecal means their pet is contagious to kids.",
+              "options": [
+                {
+                  "text": "Guess an answer.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Route medical and public-health questions to the medical team.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Tell them parasites are never a concern.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "You don't need a technician's depth, but you'll field constant client questions about parasites, so a working foundation helps.\n\nThe big ones clients ask about:\n\u2022 Fleas \u2014 itchy, visible, common; clients often see 'specks' (flea dirt).\n\u2022 Ticks \u2014 clients worry about Lyme and finding ticks after walks.\n\u2022 Heartworm \u2014 spread by mosquitoes, prevented with monthly products; clients ask why testing and prevention matter.\n\u2022 Intestinal worms \u2014 roundworms, hookworms, tapeworms; clients notice 'worms' in stool or 'rice' near the tail.\n\nYour role: answer general questions, reinforce why prevention matters, and route anything medical ('is my dog sick?') to the team. You're informed support, not a diagnostician."
+              "content": "CSRs may explain sample needs, appointment prep, and general prevention purpose. They should not diagnose parasites, interpret test results, prescribe products, or give treatment instructions."
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "When a client describes something that sounds medical ('he's losing weight and I saw worms'), capture it and route to the team rather than reassuring or interpreting."
-            },
-            {
-              "type": "flashcard",
-              "front": "What's the CSR's role regarding parasite questions?",
-              "back": "Answer general informational questions and reinforce prevention \u2014 but route any 'is my pet sick' questions to the medical team."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "A client asks, 'Why does my indoor cat need flea prevention? She never goes outside.' What's a good CSR response?",
+              "question": "What can CSRs explain?",
               "options": [
                 {
-                  "text": "'You're right, indoor cats don't need it.'",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "Inaccurate \u2014 fleas can come indoors on people, other pets, and pests; the medical team recommends prevention for good reason."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "'Fleas can still get inside on other pets or even on us, so the doctor recommends year-round prevention. I can tell you more or have the team explain the details.'",
+                  "text": "Clinic process, sample needs, and general prevention purpose.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 accurate general info, supports the recommendation, offers to route for detail."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Diagnose whether the cat currently has fleas",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Not the CSR's role."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Parasite scope",
+              "back": "Educate on process; route medical questions."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }
       ]
     },
     {
-      "title": "Module 2 \u2014 Supporting Prevention & Zoonotic Basics",
+      "title": "Module 2 — Fecal Samples",
       "lessons": [
         {
-          "title": "Prevention Scheduling and Public Health",
+          "title": "Explaining the Why",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A client says the pet looks healthy and asks why a fecal is needed.",
+              "options": [
+                {
+                  "text": "Say “because we said so.”",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Explain that some parasites are not obvious and the sample helps screen.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Tell them the pet definitely has worms.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "A big part of the CSR role is supporting the clinic's prevention efforts and handling related logistics:\n\n\u2022 Scheduling fecal tests, heartworm tests, and prevention refills.\n\u2022 Explaining (at a general level) why year-round prevention is recommended.\n\u2022 Helping clients understand product options the doctor recommended (not prescribing \u2014 supporting).\n\nZoonotic basics you should know: some parasites (like roundworms and hookworms) can affect people, especially children and those with weak immune systems. This is why the clinic emphasizes prevention, prompt stool cleanup, and hygiene. If a client asks detailed human-health questions, encourage them to talk to their physician and route veterinary questions to the team."
+              "content": "Fecal testing screens for intestinal parasites that may not be obvious at home. A simple explanation helps clients understand why the clinic asks for samples."
             },
             {
               "type": "callout",
-              "variant": "info",
-              "content": "Zoonotic means it can spread between animals and people. You don't need details \u2014 just enough to take client concerns seriously and route them appropriately."
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What should CSRs avoid?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Diagnosis or reassurance beyond the role.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
             },
             {
               "type": "flashcard",
-              "front": "What does 'zoonotic' mean, and why does it matter to a CSR?",
-              "back": "It means a parasite/disease can spread between animals and people \u2014 it's why prevention and hygiene matter, and why you take such concerns seriously."
+              "front": "Fecal sample",
+              "back": "Screens for parasites; doctor reviews results."
             },
             {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Heartworm and Prevention",
+      "lessons": [
+        {
+          "title": "Keeping It Simple",
+          "blocks": [
+            {
               "type": "scenario",
-              "prompt": "A pregnant client mentions she's worried about catching something from the new puppy's worms. How do you handle it?",
+              "prompt": "A client missed several prevention doses and asks what to do.",
               "options": [
                 {
-                  "text": "Reassure her there's no risk",
+                  "text": "Tell them to double the next dose.",
                   "isCorrect": false,
-                  "feedback": "Some parasites are zoonotic and pregnancy is a sensitive situation \u2014 don't give medical reassurance."
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
                 },
                 {
-                  "text": "Take her concern seriously, encourage her to talk with her physician, and route the puppy's parasite question to the medical team",
+                  "text": "Route to the medical team.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 validate, direct human-health questions to her doctor, and route the veterinary side to the team."
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
                 },
                 {
-                  "text": "Give her detailed medical advice about toxoplasmosis",
+                  "text": "Say it does not matter.",
                   "isCorrect": false,
-                  "feedback": "Outside your scope \u2014 route to the appropriate professionals."
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
                 }
               ]
+            },
+            {
+              "type": "text",
+              "content": "Heartworm testing and prevention are part of preventive-care workflows. The CSR can explain appointment or refill process, but product choice, missed doses, reactions, and dosing questions should be routed."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "Which questions need routing?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Missed doses, reactions, product safety, and treatment questions.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Prevention question",
+              "back": "When medical, route."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 — Flea/Tick Product Safety",
+      "lessons": [
+        {
+          "title": "Avoid Dangerous Assumptions",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client asks if they can use dog flea medication on their cat.",
+              "options": [
+                {
+                  "text": "Say yes because it treats fleas.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Tell them not to use unapproved products and route to medical team.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Suggest using half.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Some dog products can be unsafe for cats. The CSR must never guess about using products across species or changing dose."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the safest product advice?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Only use products as approved for that pet and route safety questions.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Cat product warning",
+              "back": "Never use dog products on cats unless specifically approved."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }

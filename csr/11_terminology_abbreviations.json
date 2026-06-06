@@ -1,103 +1,307 @@
 {
   "title": "CSR: Terminology & Abbreviations You'll Actually Use",
-  "description": "The medical words and abbreviations a CSR hears and records every day \u2014 focused on accurate spelling, scheduling, and communication, not clinical interpretation.",
+  "description": "A practical CSR course on the veterinary terms, abbreviations, appointment words, and workflow language front-desk staff need to communicate clearly without overstepping.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 Terms You'll Hear Daily",
+      "title": "Module 1 — Why Terminology Matters",
       "lessons": [
         {
-          "title": "Recognizing and Recording Common Terms",
+          "title": "Understanding Enough to Route Correctly",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A chart says the pet needs a recheck.",
+              "options": [
+                {
+                  "text": "Tell the client it is optional without checking.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Understand it as follow-up care and schedule according to protocol.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Guess the reason and give medical advice.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "You don't diagnose, but you transcribe and schedule around medical terms constantly. Recognizing and spelling them correctly keeps records accurate.\n\nCommon terms at the front desk:\n\u2022 Spay (OHE) and neuter \u2014 the routine sterilization surgeries.\n\u2022 Vaccine / booster \u2014 preventive shots, often on a schedule.\n\u2022 Wellness exam \u2014 routine check-up.\n\u2022 Recheck \u2014 a follow-up visit.\n\u2022 Dental / dental cleaning \u2014 oral care, often under anesthesia.\n\u2022 Anesthesia \u2014 being put under for a procedure.\n\u2022 Bloodwork / labs \u2014 diagnostic tests.\n\nYou'll also hear body-system words. You don't need to interpret them \u2014 just spell and record them correctly. When unsure of a spelling, ask; a misspelled medication in a record is a real problem."
+              "content": "CSRs need enough terminology to schedule correctly, understand records, prepare appointments, create useful messages, and recognize urgency. Terminology supports communication; it does not make the CSR the medical decision-maker."
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "When you hear an unfamiliar medical word, ask for the spelling rather than guessing. 'Could you spell that medication for me?' is professional, not embarrassing."
-            },
-            {
-              "type": "flashcard",
-              "front": "What does a CSR need to do with medical terms \u2014 interpret them or record them accurately?",
-              "back": "Record them accurately (correct spelling, right patient) \u2014 interpretation is the medical team's job."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "A doctor's note mentions a medication you've never heard of. Before entering it, you should:",
+              "question": "Why learn terminology?",
               "options": [
                 {
-                  "text": "Guess the spelling",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "A misspelled medication can cause real errors; never guess."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "Confirm the correct spelling",
+                  "text": "To communicate accurately and route information correctly.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 accuracy on medications matters for safety; verify it."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Leave it out",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Omitting it creates an incomplete record; confirm and enter it."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Recheck",
+              "back": "Follow-up appointment."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }
       ]
     },
     {
-      "title": "Module 2 \u2014 Front-Desk Abbreviations",
+      "title": "Module 2 — Common Front-Desk Terms",
       "lessons": [
         {
-          "title": "Shorthand You'll See on Schedules and Records",
+          "title": "Words You Will Hear Daily",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A client says they need a booster.",
+              "options": [
+                {
+                  "text": "Guess the vaccine.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Check reminders/record and schedule according to protocol.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Tell them boosters are unnecessary.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "Abbreviations fill veterinary schedules and records. Here are ones a CSR commonly encounters:\n\nScheduling/visit types: OHE (spay), recheck, wellness, vax (vaccines), dental.\n\nGeneral record shorthand you'll see: Hx (history), Dx (diagnosis), Tx (treatment), Rx (prescription), Px (prognosis), PE (physical exam), wt (weight), TPR (temperature/pulse/respiration), WNL (within normal limits).\n\nAppointment notes: HBC (hit by car \u2014 an emergency), ADR ('ain't doing right' \u2014 a vague illness note).\n\nYou don't need every clinical abbreviation, but recognizing these helps you read schedules, route appointments, and understand notes without constantly asking."
+              "content": "Wellness, sick visit, recheck, booster, estimate, consent, discharge instructions, records, refill, technician appointment, drop-off, surgery intake, fecal, urinalysis, bloodwork, vaccine, and prevention are daily CSR words."
             },
             {
               "type": "callout",
-              "variant": "warning",
-              "content": "Recognize HBC (Hit By Car) instantly \u2014 it signals an emergency or urgent case, and how you handle that appointment matters."
-            },
-            {
-              "type": "flashcard",
-              "front": "What does 'Rx' mean?",
-              "back": "Prescription."
-            },
-            {
-              "type": "flashcard",
-              "front": "What does 'HBC' mean and why should a CSR recognize it?",
-              "back": "Hit By Car \u2014 it signals an emergency/urgent case that needs appropriate prioritization."
-            },
-            {
-              "type": "flashcard",
-              "front": "What does 'OHE' refer to on a schedule?",
-              "back": "Ovariohysterectomy \u2014 a spay."
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "You see 'ADR' in an appointment note. What does it tell you?",
+              "question": "What does discharge instruction mean?",
               "options": [
                 {
-                  "text": "A specific diagnosis",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "ADR isn't a diagnosis \u2014 it means 'ain't doing right,' a vague sign of illness."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "The pet is generally unwell in a nonspecific way ('ain't doing right')",
+                  "text": "Instructions sent home after a visit or procedure.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 ADR flags a vague 'something's off' presentation."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "The appointment is cancelled",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "ADR has nothing to do with cancellation."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
+            },
+            {
+              "type": "flashcard",
+              "front": "UA",
+              "back": "Urinalysis."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Abbreviations",
+      "lessons": [
+        {
+          "title": "Recognize, Do Not Guess",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "You see an abbreviation you do not understand in client instructions.",
+              "options": [
+                {
+                  "text": "Guess based on what sounds right.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Check approved references or ask the appropriate team member.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Ignore it and hope the client knows.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Abbreviations vary. Common examples include DVM, CSR, CVT/LVT/RVT, BID, SID, PRN, NPO, Rx, BW, rads, UA, SQ, IM, IV, BAR, QAR, WNL, and ADR. If the abbreviation affects medication, scheduling, billing, or instructions, verify."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What abbreviation should never be guessed?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Medication or instruction abbreviations.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "NPO",
+              "back": "Nothing by mouth / fasting in surgery context."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 — Terminology Practice",
+      "lessons": [
+        {
+          "title": "Translate for Clients Safely",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client asks what a UA is.",
+              "options": [
+                {
+                  "text": "Interpret the results.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Say it is a urine test and route result/medical questions to the team.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Make up an explanation.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Clients may not understand clinic language. CSRs should translate process language plainly but avoid interpreting medical meaning."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "How should CSRs explain terms?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Plain-language process explanation, with medical interpretation routed.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Plain language",
+              "back": "Clear, accurate, inside scope."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }

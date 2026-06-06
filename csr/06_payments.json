@@ -1,138 +1,307 @@
 {
   "title": "CSR: Estimates, Payments & Money Conversations",
-  "description": "Handle the financial side with confidence and empathy: presenting estimates, discussing costs without apology or judgment, payment options, and navigating the emotional weight of money in pet care.",
+  "description": "A CSR course on financial communication, estimates, invoice accuracy, payment processing, and respectful money conversations in veterinary practice.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 Talking About Money Without Flinching",
+      "title": "Module 1 — Money Conversations",
       "lessons": [
         {
-          "title": "Cost Conversations Are Part of Care",
+          "title": "Clear Without Judgment",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A client says the visit is too expensive.",
+              "options": [
+                {
+                  "text": "Say “that is just what it costs.”",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Acknowledge the concern and review the estimate/invoice calmly.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Imply they do not care about the pet.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "Money is emotional in veterinary medicine. Owners may feel guilt, fear, or shame about what they can or can't afford for a pet they love. Your job is to discuss cost clearly, kindly, and without apology or judgment.\n\nKey mindset shifts:\n\u2022 Don't apologize for prices as if the clinic is doing something wrong \u2014 present them matter-of-factly and confidently.\n\u2022 Don't judge what someone can afford. You never know their situation.\n\u2022 Be clear and specific so there are no surprises \u2014 surprise bills are the #1 source of front-desk conflict.\n\n'The estimate for today's visit and the recommended bloodwork is $X. Would you like me to go over what's included?' \u2014 clear, calm, no apology."
+              "content": "Cost discussions can be emotional. The CSR should communicate clearly and respectfully, avoid judgment, and focus on explaining process, estimate/invoice items, and next steps."
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "Say prices with a steady, matter-of-fact voice. If you sound apologetic or embarrassed, clients sense something's wrong. Confidence communicates that the care is worth it."
-            },
-            {
-              "type": "flashcard",
-              "front": "How should a CSR present a price?",
-              "back": "Clearly, confidently, and matter-of-factly \u2014 without apologizing for it or judging what the client can afford."
-            },
-            {
-              "type": "scenario",
-              "prompt": "A client gasps at an estimate and says, 'That's so expensive, do you really need all that?' How do you respond?",
-              "options": [
-                {
-                  "text": "'Yeah, I know, it's a lot, sorry.'",
-                  "isCorrect": false,
-                  "feedback": "Apologizing undermines the value of the care and the client's confidence."
-                },
-                {
-                  "text": "'I understand it's a big number. Let me walk you through what's included so you can see what each part is for.'",
-                  "isCorrect": true,
-                  "feedback": "Correct \u2014 acknowledge the feeling, then provide clarity and transparency."
-                },
-                {
-                  "text": "'You can't put a price on your pet's life.'",
-                  "isCorrect": false,
-                  "feedback": "Guilt-tripping is manipulative and damages trust."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 2 \u2014 Estimates Done Right",
-      "lessons": [
-        {
-          "title": "Clear Estimates Prevent Conflict",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "A good estimate prevents the worst front-desk moment: the shocked, angry client at checkout facing a bill they didn't expect.\n\nBest practices:\n\u2022 Provide written estimates for anything beyond routine, before the service when possible.\n\u2022 Walk through what's included so the client understands what they're paying for.\n\u2022 Explain that an estimate is a range \u2014 costs can change if the doctor finds something, and the team will communicate before adding major charges (per clinic policy).\n\u2022 Get acknowledgment/signature where your clinic requires it.\n\nTransparency upfront turns checkout from a fight into a formality."
-            },
-            {
-              "type": "callout",
-              "variant": "warning",
-              "content": "The angriest checkout conflicts almost always trace back to a missing or unclear estimate. Five minutes of clarity upfront prevents an hour of conflict later."
-            },
-            {
-              "type": "flashcard",
-              "front": "What's the best way to prevent checkout conflict over a bill?",
-              "back": "A clear, written estimate provided upfront, with the client understanding what's included and that costs can change with communication."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "When should you ideally provide an estimate for a non-routine procedure?",
+              "question": "What is the CSR goal in money conversations?",
               "options": [
                 {
-                  "text": "After the service is done",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "Too late \u2014 that's how surprise-bill conflicts happen."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "Before the service, in writing, walking through what's included",
+                  "text": "Clear, respectful, accurate communication.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 upfront written estimates prevent conflict and build trust."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Only if the client asks",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Proactively providing estimates is far better than waiting to be asked."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Money language",
+              "back": "Explain; do not shame."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }
       ]
     },
     {
-      "title": "Module 3 \u2014 Payment Options & Hard Situations",
+      "title": "Module 2 — Invoice Accuracy",
       "lessons": [
         {
-          "title": "When Money Is a Barrier to Care",
+          "title": "Catching Errors Early",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "You notice a medication sent home but not on the invoice.",
+              "options": [
+                {
+                  "text": "Ignore it.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Verify/flag the discrepancy before checkout.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Add a random charge.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "Sometimes a client genuinely can't afford recommended care, and these are some of the hardest, most emotional front-desk moments.\n\nWhat helps:\n\u2022 Know your clinic's payment options cold \u2014 payment plans, third-party financing (like CareCredit), deposits, what's available.\n\u2022 Present options without judgment: 'Here are some ways we can help make this more manageable.'\n\u2022 Loop in the medical team \u2014 sometimes care can be staged or prioritized when full treatment isn't affordable.\n\u2022 Be compassionate. A client choosing between rent and their pet's surgery is in real pain.\n\nYou can't solve everyone's finances, but presenting options with dignity matters enormously."
+              "content": "Invoices should match services, diagnostics, medications, products, and known appointment details. Missing or duplicate charges should be flagged according to workflow. Never guess medical charges."
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "Know your clinic's financing and payment-plan options by heart. In a tough moment, being able to immediately offer a concrete option ('we work with CareCredit, and we can set up...') is a lifeline."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
-              "type": "scenario",
-              "prompt": "A client tearfully says they can't afford the recommended surgery for their dog. What's the most helpful response?",
+              "type": "quiz",
+              "question": "What should happen before checkout?",
               "options": [
                 {
-                  "text": "'Well, you should have pet insurance.'",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "Judgmental and unhelpful in the moment."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "Compassionately present payment options and offer to involve the medical team about prioritizing care",
+                  "text": "Invoice review for completeness and accuracy.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 dignity, concrete options, and team involvement to find a path forward."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Tell them there's nothing you can do",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "There are usually options worth exploring \u2014 don't shut the door."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
             },
             {
               "type": "flashcard",
-              "front": "Why know your clinic's payment/financing options by heart?",
-              "back": "So you can immediately offer concrete help in an emotional moment when a client can't afford care."
+              "front": "Invoice review",
+              "back": "Verify, do not guess."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Estimates",
+      "lessons": [
+        {
+          "title": "Explaining Without Guaranteeing",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client asks if the estimate is guaranteed.",
+              "options": [
+                {
+                  "text": "Guarantee it will never change.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Explain it is the current estimate and changes will be communicated according to process.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Say “probably, I guess.”",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "An estimate is the current expected cost based on the plan. It may change if patient needs change. The CSR can explain what the estimate represents but should route medical “why” questions."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What should the CSR avoid?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Guarantees, guesses, and medical explanations outside scope.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Estimate",
+              "back": "Current expected cost, not a guarantee."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 — Payment Boundaries",
+      "lessons": [
+        {
+          "title": "Respectful Checkout",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client becomes embarrassed about payment.",
+              "options": [
+                {
+                  "text": "Discuss their balance loudly in the lobby.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Use discreet, respectful language and follow clinic policy.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Make personal comments about finances.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Checkout should be discreet and organized. The CSR should process payment, discuss balances or options according to policy, and know when to involve management."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What does discretion protect?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Client dignity and trust.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Payment privacy",
+              "back": "Keep financial conversations discreet."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }

@@ -1,162 +1,307 @@
 {
   "title": "CSR: Grief, Loss & Euthanasia Support",
-  "description": "Support clients through the hardest moments \u2014 end-of-life decisions, euthanasia appointments, and loss. Learn compassionate language, logistics handled with dignity, and how to care for yourself through it.",
+  "description": "A compassionate CSR course on supporting clients during grief, euthanasia scheduling, end-of-life calls, private spaces, payment sensitivity, and respectful communication.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 Understanding Pet Loss",
+      "title": "Module 1 — The CSR Role During Grief",
       "lessons": [
         {
-          "title": "Grief Is Real and Deserves Respect",
+          "title": "Being the Calm Voice on a Terrible Day",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A client calls crying and says, “I think it is time.”",
+              "options": [
+                {
+                  "text": "Ask “are you sure?” in a way that increases guilt.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Say you are sorry, offer to help through the next steps, and gather patient/client basics gently.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Rush directly into payment questions.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "The bond between people and their pets is profound, and losing a pet is a genuine bereavement. For many clients, a pet is a child, a best friend, the one constant through hard years. Your compassion in these moments is something they will never forget.\n\nGrief looks different for everyone \u2014 tears, numbness, anger, even awkward jokes. There's no 'right' way, and your job isn't to manage their grief but to hold space for it with kindness and handle the practical side gently so they can focus on saying goodbye."
+              "content": "End-of-life calls require a slower pace, gentle wording, and accurate process steps. The CSR should be compassionate while still gathering the information needed to prepare the team."
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "Never minimize a loss with 'it was just a pet' or 'you can get another one.' To them, this is family. Meet them where they are."
-            },
-            {
-              "type": "flashcard",
-              "front": "What is the CSR's role during a client's pet loss?",
-              "back": "To hold space with compassion and handle logistics gently \u2014 not to manage or fix their grief."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "A client is crying at the desk after a euthanasia. What's the most compassionate response?",
+              "question": "What tone fits grief calls?",
               "options": [
                 {
-                  "text": "'At least he's not suffering anymore, time to move on.'",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "Dismissive and rushes their grief."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "A gentle, quiet presence: 'I'm so sorry. Take all the time you need.'",
+                  "text": "Slow, gentle, clear, and organized.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 simple, warm acknowledgment and patience honor the moment."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Quickly process the payment to get them out the door",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Rushing a grieving client is cold and memorable for the wrong reasons."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Grief call goal",
+              "back": "Compassion plus structure."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }
       ]
     },
     {
-      "title": "Module 2 \u2014 Compassionate Language",
+      "title": "Module 2 — Scheduling End-of-Life Visits",
+      "lessons": [
+        {
+          "title": "Preparing the Team and the Client",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client asks if euthanasia is the right choice.",
+              "options": [
+                {
+                  "text": "Give your personal opinion.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Acknowledge how hard the decision is and route the quality-of-life discussion to the veterinarian.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Avoid the question completely.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "The CSR may need to ask about timing, mobility, aftercare workflow, arrival needs, and whether the client wants to speak with the veterinarian. Medical quality-of-life questions should be routed."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "Who answers medical quality-of-life questions?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "The veterinarian or medical team.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Quality-of-life question",
+              "back": "Route compassionately."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Compassionate Words",
       "lessons": [
         {
           "title": "What to Say and What to Avoid",
           "blocks": [
             {
-              "type": "text",
-              "content": "Words matter enormously in these moments.\n\nHelpful things to say:\n\u2022 'I'm so sorry for your loss.'\n\u2022 'Take all the time you need.'\n\u2022 'He was clearly very loved.'\n\u2022 'Is there anything I can do to make this easier?'\n\nThings to avoid:\n\u2022 'I know exactly how you feel' (you don't, and it centers you).\n\u2022 'It was just a pet' / 'You can get another.'\n\u2022 'It was for the best' / 'At least...'\n\u2022 Rushing, or filling silence with chatter.\n\nUse the pet's name. Saying 'I'm so sorry about Max' is far warmer than 'your dog.' And it's okay to be quiet \u2014 a gentle presence often comforts more than words."
-            },
-            {
-              "type": "callout",
-              "variant": "warning",
-              "content": "Avoid 'I know how you feel.' Even with the best intent, it shifts focus to you and can feel dismissive. 'I'm so sorry' is enough."
-            },
-            {
-              "type": "flashcard",
-              "front": "Why use the pet's name when offering condolences?",
-              "back": "It honors the individual relationship \u2014 'I'm so sorry about Max' is far warmer and more personal than 'your dog.'"
-            },
-            {
               "type": "scenario",
-              "prompt": "A client calls to ask about scheduling a euthanasia for their elderly cat. Their voice is shaking. How do you handle the call?",
+              "prompt": "A client is sobbing at the front desk.",
               "options": [
                 {
-                  "text": "Briskly book the soonest slot and move on",
+                  "text": "Say “don’t cry.”",
                   "isCorrect": false,
-                  "feedback": "Efficiency without warmth feels cold in this moment."
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
                 },
                 {
-                  "text": "Speak gently and unhurried, use the cat's name, explain the process kindly, and reassure them you'll make it as peaceful as possible",
+                  "text": "Speak softly, give time, and guide one step at a time.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 gentleness, the pet's name, clear compassionate logistics, and reassurance."
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
                 },
                 {
-                  "text": "Tell them they're making the right choice before they've decided anything",
+                  "text": "Act annoyed because the lobby is full.",
                   "isCorrect": false,
-                  "feedback": "Don't presume their decision; support them through it."
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 3 \u2014 Handling the Logistics with Dignity",
-      "lessons": [
-        {
-          "title": "The Practical Side, Done Gently",
-          "blocks": [
+            },
             {
               "type": "text",
-              "content": "Euthanasia visits involve logistics that, handled clumsily, add pain \u2014 and handled well, ease it.\n\nThoughtful practices many clinics use:\n\u2022 Offer a quiet entrance, a private room, or a low-traffic appointment time.\n\u2022 Handle payment beforehand or afterward by phone, so the family isn't standing at the desk crying while you run a card.\n\u2022 Know your clinic's options for aftercare (burial, cremation, paw prints, memorial keepsakes) and explain them gently, without pressure.\n\u2022 Mark the record so the whole team knows and treats the family with care.\n\u2022 A condolence card or call afterward means the world.\n\nThe goal: let the family focus entirely on their goodbye while you quietly handle everything else."
+              "content": "Helpful phrases include “I’m so sorry,” “take your time,” and “we’ll help you through the next step.” Avoid minimizing phrases like “at least,” “you can get another pet,” or “don’t cry.”"
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "Handling payment privately \u2014 before or after, away from the lobby \u2014 is one of the kindest logistical things a clinic can do. No grieving family should settle a bill at a busy front desk."
-            },
-            {
-              "type": "flashcard",
-              "front": "Why arrange payment before or after a euthanasia, away from the desk?",
-              "back": "So the grieving family isn't standing at a busy front desk crying while a card is run \u2014 it preserves their dignity."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "Which logistic shows compassion during a euthanasia visit?",
+              "question": "Why avoid “at least” statements?",
               "options": [
                 {
-                  "text": "Having them wait in the full lobby like any appointment",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "A grieving family in a crowded lobby is avoidable distress."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "Offering a private room or quiet entrance and handling payment discreetly",
+                  "text": "They can minimize grief.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 privacy and discreet logistics let the family focus on their goodbye."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Asking them to choose cremation options loudly at the front desk",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Sensitive choices deserve a gentle, private conversation."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Grief language",
+              "back": "Acknowledge, do not minimize."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }
       ]
     },
     {
-      "title": "Module 4 \u2014 Caring for Yourself",
+      "title": "Module 4 — Aftercare and Payment Sensitivity",
       "lessons": [
         {
-          "title": "Compassion Fatigue Is Real",
+          "title": "Practical Tasks with Compassion",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A grieving client is overwhelmed by aftercare choices.",
+              "options": [
+                {
+                  "text": "Pressure them to choose instantly.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Follow clinic policy, give calm support, and ensure choices are documented accurately.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Choose for them.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "Supporting grieving clients, day after day, takes a toll. This is called compassion fatigue, and it's a real, recognized strain in veterinary work \u2014 not a weakness.\n\nWays to protect yourself:\n\u2022 Acknowledge that these days are hard; don't pretend they're not.\n\u2022 Take a moment to reset after an emotional appointment before the next client.\n\u2022 Lean on your team \u2014 debriefing with coworkers who understand helps.\n\u2022 Notice signs of burnout in yourself (dread, numbness, exhaustion) and take them seriously.\n\u2022 Use whatever support your clinic offers.\n\nYou can't pour from an empty cup. Caring for yourself is what lets you keep caring for clients."
+              "content": "Aftercare choices, belongings, payment, and records must be handled accurately and discreetly. The CSR should follow policy and avoid rushing emotional decisions when the workflow allows."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What must be documented carefully?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Aftercare selections and client instructions.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Aftercare accuracy",
+              "back": "Double-check according to protocol."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
             },
             {
               "type": "callout",
               "variant": "success",
-              "content": "You've learned to support clients through loss with genuine compassion, choose your words with care, handle logistics with dignity, and protect your own wellbeing. This is some of the most meaningful work you'll do \u2014 and clients remember it forever."
-            },
-            {
-              "type": "flashcard",
-              "front": "What is compassion fatigue?",
-              "back": "The real emotional toll of repeatedly supporting others through distress and grief \u2014 common in veterinary work and not a weakness."
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }

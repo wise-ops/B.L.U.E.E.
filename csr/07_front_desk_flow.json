@@ -1,122 +1,307 @@
 {
   "title": "CSR: Check-In, Check-Out & Front Desk Flow",
-  "description": "The operational backbone of the front desk: smooth check-ins, accurate check-outs, managing the lobby, coordinating with the medical team, and keeping information and patients moving correctly.",
+  "description": "A CSR course on creating smooth client and patient flow from arrival through checkout, including checklists, lobby awareness, stocking, handoffs, and end-of-day preparation.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 The Check-In",
+      "title": "Module 1 — Front Desk Traffic Control",
       "lessons": [
         {
-          "title": "Starting the Visit Right",
+          "title": "Seeing the Whole Lobby",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A client walks in while you are on the phone.",
+              "options": [
+                {
+                  "text": "Avoid eye contact until they leave.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Acknowledge them quickly and help as soon as safely possible.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Tell them to wait with no explanation.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "Check-in sets up the entire visit for success. A good check-in:\n\u2022 Greets the client warmly by name when possible.\n\u2022 Confirms the reason for the visit and updates any changed info (address, phone, etc.).\n\u2022 Verifies the patient's details.\n\u2022 Flags anything the medical team needs to know (an aggressive note, a fearful patient, a new concern the owner mentions).\n\u2022 Sets expectations: 'The technician will be right with you.'\n\nThe information you gather and pass back determines whether the medical team is prepared. A check-in that captures 'owner says limping started after a fall yesterday' gives the team a head start."
+              "content": "The front desk coordinates phones, arrivals, checkouts, forms, safety, messages, room flow, and team communication. Good flow depends on noticing bottlenecks early."
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "Listen for new information at check-in. Owners often mention the real concern casually \u2014 'oh, and he's been drinking a ton of water' \u2014 that the appointment wasn't booked for. Capture it and pass it back."
-            },
-            {
-              "type": "flashcard",
-              "front": "Why is information captured at check-in so important?",
-              "back": "It determines whether the medical team is prepared \u2014 new details the owner mentions can change the whole visit."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "At check-in, an owner casually mentions their cat 'has been throwing up a lot lately,' though the visit was booked for a nail trim. What do you do?",
+              "question": "What does front-desk flow include?",
               "options": [
                 {
-                  "text": "Ignore it since the visit is just for nails",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "New symptoms matter \u2014 the medical team should know."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "Note it and pass it to the medical team so they can address it",
+                  "text": "Client arrivals, phones, checkout, safety, forms, rooms, and team communication.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 capture the new concern and relay it; it may change the visit."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Diagnose it yourself",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Never diagnose \u2014 just capture and relay."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 2 \u2014 The Check-Out",
-      "lessons": [
-        {
-          "title": "Ending the Visit Accurately",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "Check-out is where the visit's loose ends get tied \u2014 and where errors cause problems later.\n\nA solid check-out:\n\u2022 Reviews what the doctor recommended (follow-up visits, medications, instructions).\n\u2022 Goes over the invoice clearly, matching it to the estimate.\n\u2022 Schedules any follow-ups or rechecks before they leave.\n\u2022 Ensures the client leaves with medications, written instructions, and a clear understanding of next steps.\n\u2022 Confirms they have no lingering questions.\n\nThe goal: the client walks out knowing exactly what happens next and why. A confused client becomes a phone call (or a missed follow-up) later."
-            },
-            {
-              "type": "callout",
-              "variant": "tip",
-              "content": "Book the follow-up before they leave, not 'call us later.' Appointments scheduled at checkout actually happen; 'call us later' often doesn't."
             },
             {
               "type": "flashcard",
-              "front": "Why schedule follow-ups during check-out rather than telling the client to call later?",
-              "back": "Follow-ups booked at checkout actually happen; 'call us later' often falls through."
-            },
-            {
-              "type": "scenario",
-              "prompt": "At check-out, the invoice is noticeably higher than the estimate the client signed. What's the right approach?",
-              "options": [
-                {
-                  "text": "Process it quietly and hope they don't notice",
-                  "isCorrect": false,
-                  "feedback": "This guarantees an angry call later and destroys trust."
-                },
-                {
-                  "text": "Proactively explain the difference, check it's correct, and involve the medical team or a manager if needed",
-                  "isCorrect": true,
-                  "feedback": "Correct \u2014 transparency about the difference prevents conflict and shows integrity."
-                },
-                {
-                  "text": "Tell them estimates never mean anything",
-                  "isCorrect": false,
-                  "feedback": "Dismissive and untrue; estimates matter and discrepancies deserve explanation."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 3 \u2014 Lobby & Team Coordination",
-      "lessons": [
-        {
-          "title": "Conducting the Front-of-House",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "The CSR runs the front-of-house like a conductor \u2014 managing the physical lobby and the flow of information between clients and the medical team.\n\nLobby management:\n\u2022 Keep an eye on the waiting area; separate anxious or reactive animals when possible (a fearful cat next to a barking dog is a problem).\n\u2022 Watch for animals or people in distress.\n\u2022 Keep the space calm and welcoming.\n\nTeam coordination:\n\u2022 You're the bridge between the back and the front. Relay information accurately in both directions.\n\u2022 Keep the medical team aware of arrivals, walk-ins, and waiting clients.\n\u2022 Communicate delays and changes promptly.\n\nA great CSR makes the whole clinic run more smoothly because information flows correctly through them."
+              "front": "Front desk flow",
+              "back": "Acknowledge, prioritize, communicate."
             },
             {
               "type": "callout",
-              "variant": "tip",
-              "content": "In the lobby, watch animal body language. Separating a terrified cat carrier from an excited dog before there's an incident is the kind of quiet save that prevents chaos."
-            },
-            {
-              "type": "flashcard",
-              "front": "How is the CSR like a conductor?",
-              "back": "They manage the lobby and the flow of information between clients and the medical team, keeping the whole clinic running smoothly."
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
             },
             {
               "type": "callout",
               "variant": "success",
-              "content": "You've mastered the front-desk backbone: smooth check-ins that prepare the team, accurate check-outs that prevent problems, and lobby/team coordination that keeps everything flowing. You're the operational heart of the clinic."
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 — Check-In",
+      "lessons": [
+        {
+          "title": "Starting the Visit Correctly",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A surgical patient arrives for check-in.",
+              "options": [
+                {
+                  "text": "Treat it like a nail trim check-in.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Confirm identity, fasting if required, consent/estimate, and alert the team per protocol.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Skip forms because the lobby is busy.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Check-in may include verifying client/patient info, reason for visit, forms, records, consent, estimates, and alerts for the medical team. Complete check-in prevents repeated questions and delays."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What is check-in for?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Confirming the right information before the visit starts.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Check-in essentials",
+              "back": "Identity, reason, forms, records, alerts."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Check-Out",
+      "lessons": [
+        {
+          "title": "Closing the Loop",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "The invoice appears to be missing a dispensed medication.",
+              "options": [
+                {
+                  "text": "Ignore it.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Flag/verify before final payment.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Charge something random.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Checkout includes invoice review, payment, discharge materials as directed, recheck scheduling, medication/product accuracy, and final client questions. It is the last chance to catch obvious workflow gaps."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What does checkout close?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Financial, record, discharge, and next-step loops.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Checkout",
+              "back": "Review before finalizing."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 — Daily Reset",
+      "lessons": [
+        {
+          "title": "Keeping the Clinic Ready",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "Rooms are not stocked before afternoon appointments.",
+              "options": [
+                {
+                  "text": "Assume someone else will notice.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Restock according to checklist or communicate the gap to the team.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Blame the next shift.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Stocking, cleaning, room reset, emails/faxes, next-day prep, and end-of-day handoff keep tomorrow from starting behind. Routine tasks matter because they support patient flow."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "Why do checklists matter?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "They prevent missed routine tasks during busy days.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Checklist value",
+              "back": "Routine work prevents chaos."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }

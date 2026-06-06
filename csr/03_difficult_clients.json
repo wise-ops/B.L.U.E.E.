@@ -1,162 +1,358 @@
 {
   "title": "CSR: De-escalation & Difficult Clients",
-  "description": "Stay calm and effective when clients are angry, scared, or grieving. Learn de-escalation techniques, what to say (and never say), when to set boundaries, and when to bring in a manager.",
+  "description": "A realistic CSR course on handling upset, impatient, demanding, or emotional clients with professionalism, empathy, boundaries, and clear next steps.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 Why Clients Get Upset",
+      "title": "Module 1 — Why Clients Escalate",
       "lessons": [
         {
-          "title": "The Emotion Behind the Anger",
+          "title": "Seeing Emotion Behind Behavior",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A client says the clinic only cares about money.",
+              "options": [
+                {
+                  "text": "Argue that they are wrong.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Acknowledge frustration and offer to review the estimate or next step calmly.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Tell them to go elsewhere.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "Almost every angry client at a veterinary front desk is really feeling something underneath the anger: fear for their pet, guilt that they didn't come sooner, helplessness, or sticker shock from an unexpected bill. Pets are family, and fear for family comes out sideways \u2014 often as anger aimed at whoever is in front of them. That's you.\n\nUnderstanding this changes everything. The client yelling about a wait time may be terrified their dog is seriously ill. When you respond to the fear instead of the volume, you de-escalate."
+              "content": "Clients may escalate because they are scared, worried about money, grieving, confused, or feeling ignored. De-escalation starts by not taking the behavior personally. The CSR can validate emotion without accepting blame or making promises."
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "Anger is usually fear wearing a costume. Ask yourself 'what are they actually scared of?' and respond to that."
-            },
-            {
-              "type": "flashcard",
-              "front": "What is usually underneath a client's anger?",
-              "back": "Fear, guilt, helplessness, or financial stress \u2014 pets are family, and fear comes out as anger."
-            },
-            {
-              "type": "scenario",
-              "prompt": "A client snaps, 'I've been waiting twenty minutes, this is ridiculous!' What's the most de-escalating response?",
-              "options": [
-                {
-                  "text": "'Everyone has to wait, you're not special.'",
-                  "isCorrect": false,
-                  "feedback": "Dismissive and combative \u2014 this escalates."
-                },
-                {
-                  "text": "'I'm so sorry for the wait \u2014 I can see you're worried about Bella. Let me find out exactly where we are for you.'",
-                  "isCorrect": true,
-                  "feedback": "Correct \u2014 acknowledge the feeling, name the underlying worry, and take action."
-                },
-                {
-                  "text": "'It's not my fault the doctor is behind.'",
-                  "isCorrect": false,
-                  "feedback": "Defensive and deflecting; doesn't help the client."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 2 \u2014 De-escalation Techniques",
-      "lessons": [
-        {
-          "title": "The Tools That Calm a Situation",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "De-escalation is a set of learnable skills:\n\nLISTEN fully \u2014 let them vent without interrupting. Often being heard is 80% of what they need.\n\nACKNOWLEDGE \u2014 'I hear you,' 'I understand why that's frustrating.' You can validate a feeling without agreeing you did anything wrong.\n\nLOWER your voice and slow down \u2014 people unconsciously mirror you. Calm is contagious.\n\nUSE their name \u2014 it personalizes and humanizes the exchange.\n\nFOCUS on what you CAN do \u2014 'Here's what I can do right now...' beats listing what you can't.\n\nDON'T take the bait \u2014 if they get personal, stay professional. Their anger isn't really about you."
-            },
-            {
-              "type": "callout",
-              "variant": "warning",
-              "content": "Never match their energy by raising your own voice. Two people shouting solves nothing. Your calm is the brake on the whole interaction."
-            },
-            {
-              "type": "flashcard",
-              "front": "Name three core de-escalation techniques.",
-              "back": "Any of: listen fully, acknowledge the feeling, lower your voice/slow down, use their name, focus on what you CAN do."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "A client is escalating. Which response uses de-escalation correctly?",
+              "question": "What is the goal of de-escalation?",
               "options": [
                 {
-                  "text": "Raising your voice to be heard over them",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "Matching their volume escalates the conflict."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "Lowering your voice, using their name, and saying 'Here's what I can do for you right now'",
+                  "text": "Lower tension enough to solve the next step safely and professionally.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 calm tone, personalization, and a focus on solutions de-escalate."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Telling them they're being unreasonable",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Labeling their behavior inflames the situation."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 3 \u2014 Boundaries & When to Escalate",
-      "lessons": [
-        {
-          "title": "Protecting Yourself and Knowing Your Limits",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "De-escalation has limits. You deserve to be treated with respect, and some situations need a manager or a firm boundary.\n\nIt's time to set a boundary or escalate when:\n\u2022 The client becomes abusive, threatening, or uses slurs.\n\u2022 They're demanding something you're not authorized to give.\n\u2022 The situation is beyond your role (medical disputes, big billing decisions).\n\u2022 You feel unsafe.\n\nHow to escalate gracefully: 'I want to get this resolved for you \u2014 let me bring in my manager who can help with this.' That's not failure; it's good judgment.\n\nSetting a boundary respectfully: 'I want to help you, and I can't continue if I'm being spoken to this way. Let's work together on a solution.'"
-            },
-            {
-              "type": "callout",
-              "variant": "info",
-              "content": "Escalating to a manager isn't admitting defeat \u2014 it's matching the problem to the right person. Knowing when to do it is a senior-level skill."
-            },
-            {
-              "type": "scenario",
-              "prompt": "A client starts swearing at you and calling you names over a billing issue. What's the appropriate response?",
-              "options": [
-                {
-                  "text": "Swear back so they know how it feels",
-                  "isCorrect": false,
-                  "feedback": "Never \u2014 stay professional regardless of their behavior."
-                },
-                {
-                  "text": "Calmly set a boundary and involve a manager: 'I want to help, and I can't continue being spoken to this way. Let me bring in my manager.'",
-                  "isCorrect": true,
-                  "feedback": "Correct \u2014 respectful boundary plus escalation to the right person."
-                },
-                {
-                  "text": "Silently take the abuse until they stop",
-                  "isCorrect": false,
-                  "feedback": "You don't have to absorb abuse; set a boundary and get support."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
             },
             {
               "type": "flashcard",
-              "front": "Is escalating to a manager a sign of failure?",
-              "back": "No \u2014 it's good judgment, matching a problem to the person best equipped to solve it."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 4 \u2014 Recovery & Follow-Through",
-      "lessons": [
-        {
-          "title": "Turning a Bad Moment Around",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "How a conflict ends shapes whether the client comes back. Service recovery is powerful \u2014 clients whose problems are handled well often become MORE loyal than those who never had a problem.\n\nAfter de-escalating:\n\u2022 Follow through on whatever you promised \u2014 a callback, a message to the doctor, a corrected bill. Nothing re-ignites anger like a broken promise.\n\u2022 Document the interaction factually so the team is aware.\n\u2022 Reset emotionally before the next client \u2014 don't carry it forward.\n\nA sincere 'Thank you for your patience, and I'm glad we could sort this out' closes the loop with dignity for everyone."
+              "front": "De-escalation formula",
+              "back": "Acknowledge emotion + say what you can do + follow through."
             },
             {
               "type": "callout",
               "variant": "success",
-              "content": "You've learned to see the fear under the anger, de-escalate with real techniques, set respectful boundaries, and recover gracefully. These skills make you unflappable \u2014 the calm center of a busy clinic."
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2 — Language That Calms",
+      "lessons": [
+        {
+          "title": "Replacing Defensive Phrases",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client complains about waiting in the lobby.",
+              "options": [
+                {
+                  "text": "Say “we’re super behind and I can’t do everything.”",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Thank them for their patience and explain that the team will help as soon as possible.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Ignore the complaint and walk away.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Avoid phrases like “I’m the only one up here,” “you’ll have to wait,” or “I don’t have time.” Replace them with neutral, confident language: “Thank you for your patience,” “I’ll check that for you,” and “We’ll help you as soon as possible.”"
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "Which language is best under pressure?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Calm, neutral, clear language that sets expectations without blaming the team.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
             },
             {
               "type": "flashcard",
-              "front": "Why is service recovery so valuable?",
-              "back": "Clients whose problems are handled well often become more loyal than those who never had a problem at all."
+              "front": "Avoid saying",
+              "back": "“I’m the only one up here,” “you’ll have to wait,” “I don’t have time.”"
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Boundaries and Safety",
+      "lessons": [
+        {
+          "title": "When Helping Requires Limits",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client is yelling insults and refusing to lower their voice.",
+              "options": [
+                {
+                  "text": "Yell back to show authority.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Use a calm boundary statement and involve a supervisor according to policy.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Keep accepting abuse without getting help.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Empathy does not mean accepting verbal abuse, threats, or unsafe behavior. The CSR can set a calm boundary and involve a supervisor or manager according to policy. Safety comes before customer service."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What is a boundary statement?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "A clear professional statement about what can continue and what cannot.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Boundary phrase",
+              "back": "“I want to help, but I cannot continue while being yelled at. I am getting a manager to assist.”"
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 — Money and Medical Frustration",
+      "lessons": [
+        {
+          "title": "When the Complaint Is About Cost or Care",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client says they were not told the visit would cost this much.",
+              "options": [
+                {
+                  "text": "Say “you should have asked.”",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Review the invoice/estimate calmly and route medical questions to the team.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Blame the doctor or technician.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Financial and medical frustrations can feel personal, but the CSR should stay in role. For costs, review estimates or invoices clearly. For medical concerns, gather information and route to the medical team. Do not blame coworkers or interpret medical decisions."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What should CSRs avoid during complaints?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Blame, arguments, medical interpretation, and promises they cannot keep.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Complaint response",
+              "back": "Validate, review facts, explain next step, document."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 5 — Practice Lab",
+      "lessons": [
+        {
+          "title": "Role-Play Difficult Calls",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "The client says, “I need the doctor right now and I’m not explaining it again.”",
+              "options": [
+                {
+                  "text": "Say “then I cannot help you.”",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Acknowledge urgency, gather enough information for a useful handoff, and route appropriately.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Interrupt the doctor without any information.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Skill improves with practice. Learners should role-play an angry invoice call, a callback complaint, and a boundary-setting conversation. The goal is not perfection; it is staying calm, factual, kind, and inside scope."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What should a role-play sign-off include?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Tone, empathy, information gathering, boundary use, documentation, and escalation choices.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Practice standard",
+              "back": "Say it, document it, explain when to escalate."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }

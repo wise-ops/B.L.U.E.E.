@@ -1,96 +1,307 @@
 {
   "title": "CSR: Confidentiality & Client Trust",
-  "description": "Protecting client and patient information is central to the CSR role. Learn what confidentiality means in practice, who can receive information, everyday discretion, and how trust underpins the whole client relationship.",
+  "description": "A CSR course on privacy, discretion, record handling, lobby conversations, social media caution, and protecting trust in the veterinary-client-patient relationship.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 What Confidentiality Means",
+      "title": "Module 1 — Trust at the Front Desk",
       "lessons": [
         {
-          "title": "Entrusted With Private Information",
+          "title": "What Confidentiality Means",
           "blocks": [
-            {
-              "type": "text",
-              "content": "CSRs are entrusted with sensitive client and patient information and are expected to protect it at all times. Medical records, client details, and conversations must remain confidential and be shared only with authorized individuals as required for patient care.\n\nThis isn't just policy \u2014 it's the foundation of trust. Clients share personal information (financial situations, home circumstances, emotional moments) assuming it stays private. Protecting that information is part of how you earn and keep their trust, and it's often a legal requirement too."
-            },
-            {
-              "type": "callout",
-              "variant": "info",
-              "content": "Confidentiality covers more than medical records \u2014 it includes financial details, personal circumstances, and anything you observe or overhear about a client."
-            },
-            {
-              "type": "flashcard",
-              "front": "Who can patient and client information be shared with?",
-              "back": "Only the owner or individuals authorized by them, as needed for patient care \u2014 never unauthorized third parties."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 2 \u2014 Confidentiality in Daily Practice",
-      "lessons": [
-        {
-          "title": "Everyday Discretion",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "Confidentiality plays out in small daily moments:\n\n\u2022 Don't discuss clients or patients where others can overhear \u2014 including in the lobby, on personal social media, or with friends.\n\u2022 Don't share information with family members, neighbors, or exes who aren't authorized, no matter how caring they sound.\n\u2022 Be careful with screens and printouts \u2014 don't leave records visible to other clients at the desk.\n\u2022 Verify identity before discussing details over the phone.\n\u2022 Only access records you have a legitimate work reason to see.\n\nThe well-meaning neighbor, the curious relative, the ex-partner asking about 'their' pet \u2014 all common situations where you kindly but firmly protect the owner's privacy."
-            },
-            {
-              "type": "callout",
-              "variant": "warning",
-              "content": "Social media is a confidentiality minefield. Never post about specific clients, patients, or cases \u2014 even without names, details can identify people, and it breaches trust."
-            },
             {
               "type": "scenario",
-              "prompt": "A man calls saying he's the owner's ex-partner and wants to know about the cat's recent visit 'because it's half his cat.' What do you do?",
+              "prompt": "A lobby client asks why another dog was seen first.",
               "options": [
                 {
-                  "text": "Share the information since he claims partial ownership",
+                  "text": "Explain the other dog’s condition.",
                   "isCorrect": false,
-                  "feedback": "You can't verify his authorization; sharing breaches confidentiality."
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
                 },
                 {
-                  "text": "Politely explain you can only share information with the authorized owner on the account",
+                  "text": "Give a general answer about prioritizing medical need without revealing another patient’s details.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 protect privacy; direct him to work it out with the account owner."
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
                 },
                 {
-                  "text": "Tell him the owner's new address so he can ask them",
+                  "text": "Complain about the schedule publicly.",
                   "isCorrect": false,
-                  "feedback": "Sharing the owner's personal info is a serious breach."
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "CSRs handle sensitive client details, medical histories, finances, euthanasia appointments, and medication requests. Confidentiality means sharing only with authorized people for appropriate patient-care or business reasons."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What is confidentiality?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Protecting client and patient information from unauthorized sharing.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
             },
             {
               "type": "flashcard",
-              "front": "Can you discuss a case on social media if you leave out names?",
-              "back": "No \u2014 details can still identify clients and patients, and it breaches confidentiality and trust."
+              "front": "Confidentiality",
+              "back": "Need-to-know sharing only."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }
       ]
     },
     {
-      "title": "Module 3 \u2014 Trust as the Foundation",
+      "title": "Module 2 — Common Privacy Risks",
       "lessons": [
         {
-          "title": "Why It All Comes Back to Trust",
+          "title": "Where Mistakes Happen",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "You are leaving a voicemail about a sensitive case.",
+              "options": [
+                {
+                  "text": "Describe the entire case loudly.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Follow clinic voicemail policy and avoid unnecessary detail.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Leave billing and medical details with an unknown person.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "Maintaining confidentiality builds client trust and is essential to the integrity of the clinic and the care team.\n\nClients choose a clinic they trust \u2014 with their pet's life, their personal information, and their hard moments. Every time you protect their privacy, handle their information carefully, and treat their circumstances with discretion, you reinforce that trust. Every breach, however small, erodes it.\n\nTrust is the clinic's most valuable asset, and the front desk is where it's built or broken every single day. You are a guardian of that trust."
+              "content": "Privacy risks include loud phone conversations, visible screens, records left out, wrong email addresses, too much voicemail detail, and casual case discussion."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What should CSRs slow down for?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Records, emails, phone numbers, voicemails, and sensitive conversations.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Privacy risk",
+              "back": "Wrong recipient = broken trust."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
             },
             {
               "type": "callout",
               "variant": "success",
-              "content": "You've learned what confidentiality requires, how to practice everyday discretion, how to handle unauthorized requests, and why trust is the foundation of everything. Protecting client privacy is one of the most important responsibilities you hold."
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Social Media",
+      "lessons": [
+        {
+          "title": "The Case Is Not Yours to Share",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A sad case affected you and you want to post “no names.”",
+              "options": [
+                {
+                  "text": "Post because no names are listed.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Do not post without clinic approval and proper permission.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Use initials and assume it is fine.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Even without names, details can identify a client or patient. Do not post client stories, patient cases, complaints, or clinic incidents unless handled through approved clinic processes with permission."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the safest social media rule?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Do not post clinic/client/patient information unless approved.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
             },
             {
               "type": "flashcard",
-              "front": "Why is confidentiality described as protecting the clinic's most valuable asset?",
-              "back": "Because trust is the clinic's most valuable asset, and confidentiality is how that trust is built or broken at the front desk every day."
+              "front": "Social media",
+              "back": "No names does not always mean anonymous."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 — Private Conversations",
+      "lessons": [
+        {
+          "title": "Professional Discretion",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client is upset about finances in a full lobby.",
+              "options": [
+                {
+                  "text": "Discuss their balance loudly.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Offer discreet help and follow policy without broadcasting details.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Tell other clients what is happening.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Sensitive conversations should be moved away from public spaces when possible. Use lower volume, private rooms, or written follow-up according to workflow."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What does discretion protect?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Client dignity, privacy, and clinic trust.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Discretion",
+              "back": "Private matters need private handling."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }

@@ -1,138 +1,307 @@
 {
   "title": "CSR: Smart Scheduling & Appointment Triage",
-  "description": "Build a schedule that keeps the clinic running smoothly: matching appointment types to time slots, recognizing what needs to be seen today, managing the flow, and handling no-shows and double-bookings.",
+  "description": "A CSR course on scheduling accurately, matching appointment type to patient need, preparing next-day appointments, confirming details, and protecting clinic flow.",
   "category": "Client Service Representative",
   "modules": [
     {
-      "title": "Module 1 \u2014 Appointment Types & Time",
+      "title": "Module 1 — Scheduling Is Patient Flow",
       "lessons": [
         {
-          "title": "Matching the Visit to the Slot",
+          "title": "The Schedule Is a Medical Workflow Tool",
           "blocks": [
-            {
-              "type": "text",
-              "content": "Not all appointments need the same amount of time, and scheduling them well keeps the whole day from falling apart.\n\nTypical categories (your clinic will have its own):\n\u2022 Quick visits: nail trims, recheck, vaccine-only \u2014 short slots.\n\u2022 Standard exams: wellness checks, minor issues \u2014 standard slots.\n\u2022 Long visits: new puppy/kitten with full workup, sick patient with multiple issues, senior exams \u2014 longer slots.\n\u2022 Drop-offs and surgeries: handled differently, often morning.\n\nWhen booking, ask enough to gauge the visit: 'What's the main reason for the visit?' A 'he's been limping for a week and also has a lump and needs his shots' is not a quick slot. Mismatched scheduling is the #1 cause of a clinic running behind."
-            },
-            {
-              "type": "callout",
-              "variant": "tip",
-              "content": "Always ask the reason for the visit before choosing a slot. 'Just a quick check' often turns into three problems once they're in the room."
-            },
-            {
-              "type": "flashcard",
-              "front": "Why ask the reason for a visit before booking the slot?",
-              "back": "To match the appointment length to the actual need \u2014 mismatched scheduling is a top cause of the clinic running behind."
-            },
-            {
-              "type": "quiz",
-              "question": "A client wants 'a quick appointment' but mentions the dog is limping, has a new lump, AND is due for vaccines. How should you book it?",
-              "options": [
-                {
-                  "text": "A short nail-trim-length slot",
-                  "isCorrect": false,
-                  "feedback": "Three issues need real exam time; a short slot guarantees the day runs behind."
-                },
-                {
-                  "text": "A longer slot appropriate for multiple concerns",
-                  "isCorrect": true,
-                  "feedback": "Correct \u2014 multiple issues need adequate time; book accordingly."
-                },
-                {
-                  "text": "Tell them to only bring up one problem",
-                  "isCorrect": false,
-                  "feedback": "Never limit care; schedule enough time for what the pet needs."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Module 2 \u2014 What Needs to Be Seen Today",
-      "lessons": [
-        {
-          "title": "Scheduling Urgency Without Diagnosing",
-          "blocks": [
-            {
-              "type": "text",
-              "content": "Some things can wait two weeks; some need to be seen today; some are emergencies (covered in your Triage course). As a CSR you make scheduling-urgency judgments without diagnosing.\n\nGenerally same-day or urgent (route per protocol): not eating for more than a day, repeated vomiting/diarrhea, limping that's worsening, eye problems, possible pain, a cat not urinating (emergency).\n\nGenerally routine: annual wellness, vaccine boosters not overdue, nail trims, a lump that's been stable for months.\n\nWhen unsure, err toward caution and check with the medical team about timing. 'Let me check with our team on how soon we should see her' is always a safe move."
-            },
-            {
-              "type": "callout",
-              "variant": "warning",
-              "content": "Eye issues and 'not eating' get underestimated. Eyes can deteriorate fast, and a cat that hasn't eaten for a day-plus can develop serious liver problems. When in doubt, ask the medical team about timing."
-            },
             {
               "type": "scenario",
-              "prompt": "A client says their indoor cat hasn't eaten anything in two days but is 'acting mostly normal.' How urgently do you schedule?",
+              "prompt": "A vomiting dog is requested as a vaccine appointment.",
               "options": [
                 {
-                  "text": "Routine \u2014 book in two weeks",
+                  "text": "Schedule vaccine-only because that is what the client asked for.",
                   "isCorrect": false,
-                  "feedback": "A cat not eating for two days can develop serious complications; this isn't routine."
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
                 },
                 {
-                  "text": "Treat as needing prompt attention and check with the medical team on timing",
+                  "text": "Pause, clarify symptoms, and schedule or route according to medical protocol.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 anorexia in cats is time-sensitive; escalate the scheduling question rather than guessing."
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
                 },
                 {
-                  "text": "Tell them to try different food and call back in a week",
+                  "text": "Tell the client vaccines will fix vomiting.",
                   "isCorrect": false,
-                  "feedback": "That's medical advice and delays needed care."
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Scheduling controls patient flow, doctor time, team stress, room usage, and client expectations. Good scheduling is not just filling empty space; it is matching the need to the correct appointment type."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What does good scheduling protect?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Patient care, clinic flow, team workload, and client expectations.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
             },
             {
               "type": "flashcard",
-              "front": "A cat that hasn't eaten for 2+ days \u2014 routine or prompt?",
-              "back": "Prompt \u2014 feline anorexia can cause serious liver problems quickly. Check with the medical team on timing."
+              "front": "Scheduling rule",
+              "back": "Symptoms change the appointment type."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }
       ]
     },
     {
-      "title": "Module 3 \u2014 Managing Flow, No-Shows & Conflicts",
+      "title": "Module 2 — Appointment Types",
       "lessons": [
         {
-          "title": "Keeping the Day on Track",
+          "title": "Matching Need to Visit Type",
           "blocks": [
             {
+              "type": "scenario",
+              "prompt": "A client says the pet needs vaccines but has been coughing.",
+              "options": [
+                {
+                  "text": "Book as technician vaccine-only.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Explain that illness may require a doctor exam and follow scheduling protocol.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Ignore the cough because the client asked for vaccines.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
               "type": "text",
-              "content": "A schedule is a living thing. Managing it well means:\n\n\u2022 Spacing appointments realistically and protecting buffer/catch-up time.\n\u2022 Confirming appointments (reminders cut no-shows dramatically).\n\u2022 Having a plan for no-shows and late arrivals per clinic policy.\n\u2022 Handling the inevitable double-booking or walk-in gracefully \u2014 apologize, communicate wait times honestly, and keep the medical team informed.\n\u2022 Communicating delays to waiting clients before they have to ask.\n\nHonesty about wait times builds trust. 'The doctor is running about 20 minutes behind, I'm so sorry \u2014 can I get you anything?' is far better than letting someone stew."
+              "content": "Wellness, sick, recheck, technician, surgery, drop-off, and euthanasia visits have different time and preparation needs. When unclear, the CSR should verify rather than squeeze a complex visit into the wrong slot."
             },
             {
               "type": "callout",
               "variant": "tip",
-              "content": "Proactively telling a waiting client about a delay \u2014 before they come ask \u2014 turns frustration into appreciation. People forgive waits; they don't forgive being ignored."
-            },
-            {
-              "type": "flashcard",
-              "front": "What's the best way to handle a clinic running behind schedule?",
-              "back": "Proactively and honestly communicate the delay to waiting clients before they have to ask."
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
             },
             {
               "type": "quiz",
-              "question": "You realize two appointments were accidentally double-booked. What's the professional response?",
+              "question": "When should the CSR verify appointment type?",
               "options": [
                 {
-                  "text": "Hope one doesn't show up",
+                  "text": "The fastest answer, even if details are missing",
                   "isCorrect": false,
-                  "feedback": "Leaving it to chance risks two upset clients and a scheduling mess."
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
                 },
                 {
-                  "text": "Acknowledge it, communicate honestly with both clients about timing, and coordinate with the medical team",
+                  "text": "When symptoms, behavior concerns, surgery questions, or unclear records change the visit need.",
                   "isCorrect": true,
-                  "feedback": "Correct \u2014 own it, communicate, and problem-solve with the team."
+                  "feedback": "Correct."
                 },
                 {
-                  "text": "Cancel one without telling them",
+                  "text": "Tell the client someone else will deal with it and move on",
                   "isCorrect": false,
-                  "feedback": "Cancelling silently destroys trust."
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
                 }
               ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Appointment mismatch",
+              "back": "Do not force complex needs into routine slots."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3 — Next-Day Preparation",
+      "lessons": [
+        {
+          "title": "Preventing Tomorrow’s Chaos",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A new patient is scheduled tomorrow with no records attached.",
+              "options": [
+                {
+                  "text": "Wait until arrival.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Follow process to request/locate records and flag the chart.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Cancel without checking policy.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Next-day prep may include checking records, reminders, estimates, forms, vaccine needs, premedication notes, and schedule gaps. Prep protects the team from morning surprises."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What is strong next-day prep?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "Finding missing records, reminders, forms, and estimates before the appointment.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Prep rule",
+              "back": "Find missing pieces before the client arrives."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4 — Confirmations and Expectations",
+      "lessons": [
+        {
+          "title": "Reducing No-Shows and Confusion",
+          "blocks": [
+            {
+              "type": "scenario",
+              "prompt": "A client asks whether to give medication before an appointment.",
+              "options": [
+                {
+                  "text": "Guess based on what usually happens.",
+                  "isCorrect": false,
+                  "feedback": "This response either misses urgency, sounds dismissive, crosses scope, or creates avoidable workflow risk."
+                },
+                {
+                  "text": "Route medical medication questions according to protocol.",
+                  "isCorrect": true,
+                  "feedback": "Correct. This keeps the client supported, protects patient care, and follows the CSR role."
+                },
+                {
+                  "text": "Say all meds should be stopped.",
+                  "isCorrect": false,
+                  "feedback": "This may seem faster in the moment, but it creates communication, safety, privacy, or trust problems."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Confirmations should include date/time, arrival instructions, sample needs, fasting/prep if approved, and what to bring. Never give medical prep instructions if they require medical judgment."
+            },
+            {
+              "type": "callout",
+              "variant": "tip",
+              "content": "BLUEEE clinic reality: the goal is not to memorize a script word-for-word. The goal is to understand the decision behind the script so the learner can adapt professionally in real situations."
+            },
+            {
+              "type": "quiz",
+              "question": "What can confirmations reduce?",
+              "options": [
+                {
+                  "text": "The fastest answer, even if details are missing",
+                  "isCorrect": false,
+                  "feedback": "Fast is not helpful if it creates errors or unsafe assumptions."
+                },
+                {
+                  "text": "No-shows, late arrivals, missing records, missing samples, and client confusion.",
+                  "isCorrect": true,
+                  "feedback": "Correct."
+                },
+                {
+                  "text": "Tell the client someone else will deal with it and move on",
+                  "isCorrect": false,
+                  "feedback": "Passing the problem away without a useful handoff damages trust and workflow."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Confirmation",
+              "back": "Clear logistics, no medical guessing."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "content": "Future media: use a purposeful photo, diagram, role-play video, or checklist only when it improves learning; avoid decorative filler."
+            },
+            {
+              "type": "callout",
+              "variant": "success",
+              "content": "Practice task: learner should explain out loud what they would say, what they would document, and when they would escalate this situation."
             }
           ]
         }
