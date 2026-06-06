@@ -1,40 +1,45 @@
 "use client";
 import { useState } from "react";
 import { getTrackTheme } from "@/lib/trackTheme";
+import { Palette, PALETTES } from "@/lib/lessonPalettes";
 
 // Redesigned, engaging lesson block renderer.
-// Accepts an optional `category` so each track gets its own accent identity.
+// Accepts a `category` for track accent and a `palette` so text/cards adapt
+// to the lesson's background (including dark palettes).
 export default function LessonBlocks({
   blocks,
   category,
+  palette,
 }: {
   blocks: any[];
   category?: string;
+  palette?: Palette;
 }) {
   const theme = getTrackTheme(category);
+  const pal = palette || PALETTES[0];
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "28px" }}>
       {blocks.map((block, i) => (
-        <Block key={i} block={block} theme={theme} />
+        <Block key={i} block={block} theme={theme} pal={pal} />
       ))}
     </div>
   );
 }
 
-function Block({ block, theme }: { block: any; theme: any }) {
+function Block({ block, theme, pal }: { block: any; theme: any; pal: Palette }) {
   switch (block.type) {
     case "text":
-      return <TextBlock content={block.content} />;
+      return <TextBlock content={block.content} pal={pal} />;
     case "callout":
-      return <Callout variant={block.variant} content={block.content} />;
+      return <Callout variant={block.variant} content={block.content} pal={pal} />;
     case "image":
       return <ImageBlock block={block} />;
     case "video":
       return <VideoBlock block={block} />;
     case "quiz":
-      return <Quiz block={block} theme={theme} />;
+      return <Quiz block={block} theme={theme} pal={pal} />;
     case "scenario":
-      return <Quiz block={block} theme={theme} scenario />;
+      return <Quiz block={block} theme={theme} pal={pal} scenario />;
     case "flashcard":
       return <Flashcard block={block} theme={theme} />;
     case "hotspot":
@@ -46,20 +51,18 @@ function Block({ block, theme }: { block: any; theme: any }) {
   }
 }
 
-function TextBlock({ content }: { content: string }) {
-  // First paragraph gets a larger lead style; rest is body.
+function TextBlock({ content, pal }: { content: string; pal: Palette }) {
   const paras = (content || "").split("\n").filter((p) => p.trim());
   return (
     <div>
       {paras.map((p, i) => (
         <p
           key={i}
-          style={{
-            fontSize: i === 0 ? "17px" : "16px",
-            lineHeight: 1.75,
-            color: "#3a3a36",
-            margin: "0 0 14px",
-          }}
+          style={
+            i === 0
+              ? { fontFamily: "'Fraunces', serif", fontSize: "20px", lineHeight: 1.5, color: pal.leadText, fontWeight: 400, margin: "0 0 16px", letterSpacing: "-0.01em" }
+              : { fontSize: "16px", lineHeight: 1.78, color: pal.bodyText, margin: "0 0 14px" }
+          }
         >
           {p}
         </p>
@@ -68,47 +71,31 @@ function TextBlock({ content }: { content: string }) {
   );
 }
 
-function Callout({ variant, content }: { variant: string; content: string }) {
+function Callout({ variant, content, pal }: { variant: string; content: string; pal: Palette }) {
   const styles: Record<string, any> = {
-    tip: { bar: "#2f9e75", soft: "#e3f5ee", text: "#1f6e52", icon: "💡", label: "Tip" },
-    warning: { bar: "#e86100", soft: "#fdeee2", text: "#993c1d", icon: "⚠", label: "Important" },
-    info: { bar: "#4682b4", soft: "#e8f1f8", text: "#2f5d82", icon: "ℹ", label: "Note" },
-    success: { bar: "#556b2f", soft: "#eef2e4", text: "#3d4f22", icon: "✓", label: "Key point" },
+    tip: { bar: "#2f9e75", text: pal.dark ? "#7fd4b3" : "#1f6e52", label: "Tip" },
+    warning: { bar: "#e86100", text: pal.dark ? "#f0a060" : "#993c1d", label: "Important" },
+    info: { bar: "#4682b4", text: pal.dark ? "#7fb3d0" : "#2f5d82", label: "Note" },
+    success: { bar: "#556b2f", text: pal.dark ? "#a3bd84" : "#3d4f22", label: "Key point" },
   };
   const s = styles[variant] || styles.info;
   return (
     <div
       style={{
         position: "relative",
-        background: s.soft,
-        borderRadius: "14px",
-        padding: "16px 18px 16px 22px",
+        background: pal.cardBg,
+        borderRadius: "16px",
+        padding: "18px 20px 18px 24px",
         overflow: "hidden",
+        boxShadow: `0 6px 24px -10px ${s.bar}66`,
+        border: `1px solid ${s.bar}22`,
       }}
     >
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          top: 0,
-          bottom: 0,
-          width: "5px",
-          background: s.bar,
-        }}
-      />
-      <div
-        style={{
-          fontSize: "12px",
-          fontWeight: 700,
-          letterSpacing: "0.07em",
-          textTransform: "uppercase",
-          color: s.text,
-          marginBottom: "5px",
-        }}
-      >
+      <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: "5px", background: s.bar }} />
+      <div style={{ fontSize: "12px", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: s.text, marginBottom: "6px" }}>
         {s.label}
       </div>
-      <div style={{ fontSize: "15px", lineHeight: 1.6, color: "#3a3a36", whiteSpace: "pre-wrap" }}>
+      <div style={{ fontSize: "15px", lineHeight: 1.65, color: pal.cardText, whiteSpace: "pre-wrap" }}>
         {content}
       </div>
     </div>
@@ -174,21 +161,21 @@ function Flashcard({ block, theme }: { block: any; theme: any }) {
               position: "absolute",
               inset: 0,
               backfaceVisibility: "hidden",
-              borderRadius: "16px",
+              borderRadius: "18px",
               background: `linear-gradient(140deg, ${theme.accent}, ${theme.accentDark})`,
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              padding: "24px",
+              padding: "26px",
               textAlign: "center",
-              boxShadow: `0 12px 30px -10px ${theme.accent}80`,
+              boxShadow: `0 18px 40px -12px ${theme.accent}99`,
             }}
           >
             <div>
-              <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.65)", textTransform: "uppercase", letterSpacing: "0.12em", marginBottom: "10px" }}>
+              <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.7)", textTransform: "uppercase", letterSpacing: "0.14em", marginBottom: "12px", fontWeight: 600 }}>
                 Question
               </div>
-              <div style={{ fontSize: "19px", fontWeight: 600, color: "#fff", lineHeight: 1.4 }}>
+              <div style={{ fontFamily: "'Fraunces', serif", fontSize: "21px", fontWeight: 500, color: "#fff", lineHeight: 1.35 }}>
                 {block.front}
               </div>
             </div>
@@ -199,14 +186,14 @@ function Flashcard({ block, theme }: { block: any; theme: any }) {
               inset: 0,
               backfaceVisibility: "hidden",
               transform: "rotateY(180deg)",
-              borderRadius: "16px",
-              background: "linear-gradient(140deg, #556b2f, #42531f)",
+              borderRadius: "18px",
+              background: "linear-gradient(140deg, #6f8a3d, #42531f)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              padding: "24px",
+              padding: "26px",
               textAlign: "center",
-              boxShadow: "0 12px 30px -10px rgba(85,107,47,0.5)",
+              boxShadow: "0 18px 40px -12px rgba(85,107,47,0.6)",
             }}
           >
             <div style={{ fontSize: "16px", color: "#fff", lineHeight: 1.55 }}>{block.back}</div>
@@ -217,7 +204,7 @@ function Flashcard({ block, theme }: { block: any; theme: any }) {
   );
 }
 
-function Quiz({ block, theme, scenario = false }: { block: any; theme: any; scenario?: boolean }) {
+function Quiz({ block, theme, pal, scenario = false }: { block: any; theme: any; pal: Palette; scenario?: boolean }) {
   const [picked, setPicked] = useState<number | null>(null);
   const question = scenario ? block.prompt : block.question;
   const options = block.options || [];
@@ -228,22 +215,22 @@ function Quiz({ block, theme, scenario = false }: { block: any; theme: any; scen
       <Label icon={scenario ? "bulb" : "check"} text={scenario ? "Scenario" : "Knowledge check"} theme={theme} />
       <div
         style={{
-          background: "#fff",
+          background: pal.cardBg,
           borderRadius: "16px",
           padding: "22px",
-          border: "1px solid rgba(26,31,46,0.07)",
+          border: pal.dark ? "1px solid rgba(255,255,255,0.08)" : "1px solid rgba(26,31,46,0.07)",
           boxShadow: "0 4px 20px -12px rgba(26,31,46,0.2)",
         }}
       >
-        <p style={{ fontSize: "17px", fontWeight: 600, color: "#1a1f2e", margin: "0 0 16px", lineHeight: 1.4 }}>
+        <p style={{ fontFamily: "'Fraunces', serif", fontSize: "18px", fontWeight: 500, color: pal.dark ? "#fff" : "#1a1f2e", margin: "0 0 16px", lineHeight: 1.4 }}>
           {question}
         </p>
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           {options.map((opt: any, i: number) => {
             const isPicked = picked === i;
-            let bg = "#faf8f4",
-              border = "#e8e3da",
-              color = "#3a3a36",
+            let bg = pal.dark ? "#1a2433" : "#faf8f4",
+              border = pal.dark ? "rgba(255,255,255,0.12)" : "#e8e3da",
+              color = pal.dark ? "#cdd6e0" : "#3a3a36",
               opacity = 1;
             if (answered) {
               if (opt.isCorrect) {

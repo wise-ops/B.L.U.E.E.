@@ -2,6 +2,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import LessonBlocks from "@/components/LessonBlocks";
+import LessonShell from "@/components/LessonShell";
+import { paletteForIndex } from "@/lib/lessonPalettes";
 
 export default function CoursePlayer({
   course,
@@ -11,7 +13,6 @@ export default function CoursePlayer({
   completedLessonIds: string[];
 }) {
   const router = useRouter();
-  // Flatten all lessons across modules into one ordered list.
   const lessons: any[] = course.modules.flatMap((m: any) =>
     m.lessons.map((l: any) => ({ ...l, moduleTitle: m.title }))
   );
@@ -21,6 +22,7 @@ export default function CoursePlayer({
   const [saving, setSaving] = useState(false);
 
   const lesson = lessons[index];
+  const palette = paletteForIndex(index);
   const isDone = lesson && completed.includes(lesson.id);
 
   async function markComplete() {
@@ -38,58 +40,43 @@ export default function CoursePlayer({
   }
 
   if (!lesson) {
-    return <div>This course has no lessons yet.</div>;
+    return (
+      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
+        <button onClick={() => router.push("/learn")} style={{ background: "none", border: "none", color: "#888", cursor: "pointer" }}>← Back to My Training</button>
+        <div style={{ background: "#fff", borderRadius: "16px", padding: "40px", textAlign: "center", color: "#888", marginTop: "16px" }}>
+          This course has no lessons yet.
+        </div>
+      </div>
+    );
   }
 
   return (
-    <div className="max-w-3xl mx-auto">
-      <button
-        onClick={() => router.push("/learn")}
-        className="text-sm text-gray-500 hover:text-bluee-navy mb-4"
-      >
-        ← Back to My Training
-      </button>
-
-      <div className="mb-4">
-        <div className="text-xs text-gray-400">{lesson.moduleTitle}</div>
-        <h1 className="text-2xl font-bold text-bluee-navy">{lesson.title}</h1>
-        <div className="text-sm text-gray-500 mt-1">
-          Lesson {index + 1} of {lessons.length}
-        </div>
-      </div>
-
-      {/* progress bar */}
-      <div className="h-1.5 bg-gray-200 rounded-full mb-6 overflow-hidden">
-        <div
-          className="h-full bg-bluee-steel transition-all"
-          style={{ width: `${((index + 1) / lessons.length) * 100}%` }}
-        />
-      </div>
-
-      <div className="bg-white rounded-xl p-6 shadow-sm">
-        <LessonBlocks blocks={lesson.blocks || []} category={course.category} />
-      </div>
-
-      <div className="flex items-center justify-between mt-6">
+    <LessonShell
+      category={course.category}
+      palette={palette}
+      moduleTitle={lesson.moduleTitle}
+      lessonTitle={lesson.title}
+      index={index}
+      total={lessons.length}
+      onBack={() => router.push("/learn")}
+    >
+      <LessonBlocks blocks={lesson.blocks || []} category={course.category} palette={palette} />
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "28px" }}>
         <button
           onClick={() => setIndex(Math.max(0, index - 1))}
           disabled={index === 0}
-          className="text-sm px-4 py-2 rounded-lg bg-gray-100 text-gray-700 disabled:opacity-40"
+          style={{ fontSize: "14px", padding: "10px 18px", borderRadius: "10px", background: "#ece8e0", color: "#555", border: "none", cursor: index === 0 ? "default" : "pointer", opacity: index === 0 ? 0.4 : 1 }}
         >
           Previous
         </button>
         <button
           onClick={markComplete}
           disabled={saving}
-          className="text-sm px-5 py-2.5 rounded-lg bg-bluee-orange text-white font-medium hover:opacity-90 disabled:opacity-50"
+          style={{ fontSize: "14px", padding: "11px 22px", borderRadius: "10px", background: "linear-gradient(135deg,#e86100,#ff8a3d)", color: "#fff", border: "none", fontWeight: 600, cursor: "pointer", boxShadow: "0 8px 20px -8px rgba(232,97,0,0.6)", opacity: saving ? 0.6 : 1 }}
         >
-          {saving
-            ? "Saving…"
-            : index < lessons.length - 1
-            ? isDone ? "Next lesson →" : "Complete & continue →"
-            : isDone ? "Finish" : "Complete course ✓"}
+          {saving ? "Saving…" : index < lessons.length - 1 ? (isDone ? "Next lesson →" : "Complete & continue →") : isDone ? "Finish" : "Complete course ✓"}
         </button>
       </div>
-    </div>
+    </LessonShell>
   );
 }
